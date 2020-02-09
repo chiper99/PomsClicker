@@ -1,0 +1,612 @@
+#ChooseModePage
+{
+    width: 300px;
+    height: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body
+{
+    position: relative;
+}
+
+#HelloUsername
+{
+    color: #569981;
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50pt;
+    font-family: Orbitron Medium, Open Sans, Noto Sans Japanese, Trade Gothic Bold Condensed No20, sans-serif;
+    font-weight: 550;
+    line-height: 60px;
+    letter-spacing: 1px;
+}
+
+#ChooseMode
+{
+    color: #44c18e;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35pt;
+    font-family: Montserrat Regular;
+    font-weight: 550;
+    line-height: 60px;
+    letter-spacing: 1px;
+}
+
+#SinglePlayer
+{
+    color: #566d99;
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30pt;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 1px;
+}
+
+#Multiplayer
+{
+    color: #566d99;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30pt;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 1px;
+}
+
+#ApplePic
+{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top:38%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+#AppleMulti
+{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top:61.5%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    float:left;
+    margin-left: -120px;
+}
+
+#AppleReverse
+{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top:61.5%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    float:left;
+    margin-left: 120px;
+}
+
+#Blitz
+{
+    color: #566d99;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30pt;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 1px;
+}
+
+#AppleBlitz
+{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top:86%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+#Cherry
+{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top:86%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    float:left;
+    margin-left: -150px;
+}
+
+#Lemon
+{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top:86%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    float:left;
+    margin-left: 150px;
+}
+
+@media screen and (min-width: 1233px) and (max-width: 1366px)
+{
+    #HelloUsername
+    {
+        font-size: 45pt;
+    }
+    #ChooseMode
+    {
+        font-size: 32pt;
+    }
+    #SinglePlayer
+    {
+        font-size: 28pt;
+    }
+    #Multiplayer
+    {
+        font-size: 28pt;
+    }
+    #Blitz
+    {
+        font-size: 28pt;
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1233px)
+{
+    #HelloUsername
+    {
+        font-size: 40pt;
+    }
+    #ChooseMode
+    {
+        font-size: 28pt;
+    }
+    #SinglePlayer
+    {
+        font-size: 26pt;
+    }
+    #Multiplayer
+    {
+        font-size: 26pt;
+    }
+    #Blitz
+    {
+        font-size: 26pt;
+    }
+}
+
+@media screen and (min-width: 967px) and (max-width: 1100px)
+{
+    #HelloUsername
+    {
+        font-size: 35pt;
+    }
+    #ChooseMode
+    {
+        top:14%;
+        font-size: 24.5pt;
+    }
+    #SinglePlayer
+    {
+        top:20%;
+        font-size: 22pt;
+    }
+    #ApplePic
+    {
+        top:35%;
+        width: 100px;
+        height: 100px;
+    }
+    #Multiplayer
+    {
+        top:44%;
+        font-size: 22pt;
+    }
+    #AppleMulti
+    {
+        top:58.5%;
+        width: 100px;
+        height: 100px;
+        margin-left: -90px;
+    }
+    #AppleReverse
+    {
+        top:58.5%;
+        width: 100px;
+        height: 100px;
+        margin-left: 90px;
+    }
+    #Blitz
+    {
+        top:67%;
+        font-size: 22pt;
+    }
+    #AppleBlitz
+    {
+        top:81%;
+        width: 100px;
+        height: 100px;
+    }
+    #Cherry
+    {
+        top:81%;
+        width: 100px;
+        height: 100px;
+    }
+    #Lemon
+    {
+        top:81%;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 728px) and (max-width: 967px)
+{
+    #HelloUsername
+    {
+        font-size: 26pt;
+    }
+    #ChooseMode
+    {
+        top:13%;
+        font-size: 18pt;
+    }
+    #SinglePlayer
+    {
+        top:18.5%;
+        font-size: 17.5pt;
+    }
+    #ApplePic
+    {
+        top:32%;
+        width: 95px;
+        height: 95px;
+    }
+    #Multiplayer
+    {
+        top:41%;
+        font-size: 17.5pt;
+    }
+    #AppleMulti
+    {
+        top:54.5%;
+        width: 95px;
+        height: 95px;
+        margin-left:-80px;
+    }
+    #AppleReverse
+    {
+        top:54.5%;
+        width: 95px;
+        height: 95px;
+        margin-left:80px;
+    }
+    #Blitz
+    {
+        top:63%;
+        font-size: 17.5pt;
+    }
+    #AppleBlitz
+    {
+        top:77%;
+        width: 100px;
+        height: 100px;
+    }
+    #Cherry
+    {
+        top:77%;
+        width: 100px;
+        height: 100px;
+        margin-left: -130px;
+    }
+    #Lemon
+    {
+        top:77%;
+        width: 100px;
+        height: 100px;
+        margin-left:130px;
+    }
+}
+
+@media screen and (min-width: 690px) and (max-width: 728px)
+{
+    #HelloUsername
+    {
+        font-size: 24pt;
+    }
+    #ChooseMode
+    {
+        top:12%;
+        font-size: 17pt;
+    }
+    #SinglePlayer
+    {
+        top:17%;
+        font-size: 17.5pt;
+    }
+    #ApplePic
+    {
+        top:30%;
+        width: 90px;
+        height: 90px;
+    }
+    #Multiplayer
+    {
+        top:39%;
+        font-size: 17.5pt;
+    }
+    #AppleMulti
+    {
+        top:50%;
+        width: 90px;
+        height: 90px;
+        margin-left:-80px;
+    }
+    #AppleReverse
+    {
+        top:50%;
+        width: 90px;
+        height: 90px;
+        margin-left:80px;
+    }
+    #Blitz
+    {
+        top:58%;
+        font-size: 17.5pt;
+    }
+    #AppleBlitz
+    {
+        top:72%;
+        width: 90px;
+        height: 90px;
+    }
+    #Cherry
+    {
+        top:72%;
+        width: 90px;
+        height: 90px;
+        margin-left:-120px;
+    }
+    #Lemon
+    {
+        top:72%;
+        width: 90px;
+        height: 90px;
+        margin-left:120px;
+    }
+}
+
+@media screen and (min-width: 623px) and (max-width: 690px)
+{
+    #HelloUsername
+    {
+        font-size: 22pt;
+    }
+    #ChooseMode
+    {
+        top:12%;
+        font-size: 16pt;
+    }
+    #SinglePlayer
+    {
+        top:17%;
+        font-size: 17.3pt;
+    }
+    #ApplePic
+    {
+        top:30%;
+        width: 90px;
+        height: 90px;
+    }
+    #Multiplayer
+    {
+        top:39%;
+        font-size: 17.3pt;
+    }
+    #AppleMulti
+    {
+        top:50%;
+        width: 90px;
+        height: 90px;
+        margin-left:-80px;
+    }
+    #AppleReverse
+    {
+        top:50%;
+        width: 90px;
+        height: 90px;
+        margin-left:80px;
+    }
+    #Blitz
+    {
+        top:58%;
+        font-size: 17.3pt;
+    }
+    #AppleBlitz
+    {
+        top:72%;
+        width: 90px;
+        height: 90px;
+    }
+    #Cherry
+    {
+        top:72%;
+        width: 90px;
+        height: 90px;
+        margin-left:-120px;
+    }
+    #Lemon
+    {
+        top:72%;
+        width: 90px;
+        height: 90px;
+        margin-left:120px;
+    }
+}
+
+@media screen and (min-width: 542px) and (max-width: 623px)
+{
+    #HelloUsername
+    {
+        width:330px;
+        font-size: 22pt;
+        line-height: 35px;
+    }
+    #ChooseMode
+    {
+        width: 300px;
+        top:12%;
+        font-size: 15pt;
+        line-height: 35px;
+    }
+    #SinglePlayer
+    {
+        top:17%;
+        font-size: 15pt;
+    }
+    #ApplePic
+    {
+        top:30%;
+        width: 90px;
+        height: 90px;
+    }
+    #Multiplayer
+    {
+        top:39%;
+        font-size: 17.3pt;
+    }
+    #AppleMulti
+    {
+        top:50%;
+        width: 90px;
+        height: 90px;
+        margin-left:-80px;
+    }
+    #AppleReverse
+    {
+        top:50%;
+        width: 90px;
+        height: 90px;
+        margin-left:80px;
+    }
+    #Blitz
+    {
+        top:58%;
+        font-size: 17.3pt;
+    }
+    #AppleBlitz
+    {
+        top:72%;
+        width: 90px;
+        height: 90px;
+    }
+    #Cherry
+    {
+        top:72%;
+        width: 90px;
+        height: 90px;
+        margin-left:-120px;
+    }
+    #Lemon
+    {
+        top:72%;
+        width: 90px;
+        height: 90px;
+        margin-left:120px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 542px)
+{
+    #HelloUsername
+    {
+        width: 285px;
+        font-size: 20pt;
+        line-height: 35px;
+    }
+    #ChooseMode
+    {
+        width:300px;
+        top:12%;
+        font-size: 15pt;
+        line-height: 35px;
+    }
+    #SinglePlayer
+    {
+        top:17%;
+        font-size: 15pt;
+    }
+    #ApplePic
+    {
+        top:30%;
+        width: 90px;
+        height: 90px;
+    }
+    #Multiplayer
+    {
+        top:39%;
+        font-size: 17.3pt;
+    }
+    #AppleMulti
+    {
+        top:50%;
+        width: 90px;
+        height: 90px;
+        margin-left:-80px;
+    }
+    #AppleReverse
+    {
+        top:50%;
+        width: 90px;
+        height: 90px;
+        margin-left:80px;
+    }
+    #Blitz
+    {
+        top:58%;
+        font-size: 17.3pt;
+    }
+    #AppleBlitz
+    {
+        top:72%;
+        width: 90px;
+        height: 90px;
+    }
+    #Cherry
+    {
+        top:72%;
+        width: 90px;
+        height: 90px;
+        margin-left:-120px;
+    }
+    #Lemon
+    {
+        top:72%;
+        width: 90px;
+        height: 90px;
+        margin-left:120px;
+    }
+}
