@@ -20,7 +20,7 @@ body
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 50pt;
-    font-family: Orbitron Medium, Open Sans, Noto Sans Japanese, Trade Gothic Bold Condensed No20, sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-weight: 550;
 }
 
@@ -46,7 +46,7 @@ body
 }
 
 .mdl-textfield__label {
-    font-family: Open Sans, Noto Sans Japanese, Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #569981 !important;
 }
 
@@ -75,14 +75,14 @@ body
     transform: translate(-50%, -50%);
     width: 190px;
     font-size: 13pt;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     text-align: left;
 }
 
 #SignUpBtn {
     font-size: 18px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     position: absolute;
     top: 74%;
     float: right;

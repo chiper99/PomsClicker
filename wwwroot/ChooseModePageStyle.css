@@ -19,7 +19,7 @@ body
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 50pt;
-    font-family: Orbitron Medium, Open Sans, Noto Sans Japanese, Trade Gothic Bold Condensed No20, sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-weight: 550;
     line-height: 60px;
     letter-spacing: 1px;
@@ -33,7 +33,7 @@ body
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 35pt;
-    font-family: Montserrat Regular;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 550;
     line-height: 60px;
     letter-spacing: 1px;
@@ -47,7 +47,7 @@ body
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 30pt;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     line-height: 60px;
     letter-spacing: 1px;
@@ -61,7 +61,7 @@ body
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 30pt;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     line-height: 60px;
     letter-spacing: 1px;
