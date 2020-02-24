@@ -27,17 +27,17 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
-const isLoggedIn = true;
+const isLoggedIn = false;
 const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
       <IonRouterOutlet>
-        <Route path="/home" isLoggedIn component={Home} exact={true} />
-        <Route path="/blitz" component={Blitz} exact={true} />
-        <Route path="/multi" component={Multi} exact={true} />
-        <Route path="/single" component={Single} exact={true} />
-        <Route path="/login" component={LoginPage} exact={true} />     
-        <Route path="/register" component={RegisterPage} exact={true} />             
+        <Route exact path="/home" render ={props =>{return isLoggedIn ? <Home/> : <LoginPage/>}} />
+        <Route exact path="/blitz" render={props =>{return isLoggedIn ? <Blitz/> : <LoginPage/>}} />
+        <Route exact path="/multi" render={props =>{return isLoggedIn ? <Multi/> : <LoginPage/>}} />
+        <Route exact path="/single" render={props =>{return isLoggedIn ? <Single/> : <LoginPage/>}}/>
+        <Route exact path="/login" render={props =>{return isLoggedIn ? <Home/> : <LoginPage/>}} />  
+        <Route exact path="/register" render={props =>{return isLoggedIn ? <Home/> : <RegisterPage/>}} />            
         <Route exact path="/" render={() => isLoggedIn ? <Redirect to="/home" /> : <Redirect to="/login" />} />
       </IonRouterOutlet>      
     </IonReactRouter>
