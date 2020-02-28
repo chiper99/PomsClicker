@@ -1,7 +1,0 @@
-{
-  "name": "dbExpe",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "react"
-}
