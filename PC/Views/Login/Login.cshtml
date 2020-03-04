@@ -1,26 +1,30 @@
 @page
 @model PC.Views.Login.Login
 
-<div id="LoginPage">
-    <h6 id="LoginText">Login</h6>
+@{
+    Layout = null;
+}
 
-    <div id="LoginTextBox" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="text" id="sample3">
-        <label class="mdl-textfield__label" for="sample3">Email</label>
+<div id="LoginPage" >
+        <h6 id="LoginText">Login</h6>
+    
+        <div id="LoginTextBox" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="sample3">
+            <label class="mdl-textfield__label" for="sample3">Email</label>
+        </div>
+
+        <div id="PasswordTextBox" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="text" id="sample3">
+                <label class="mdl-textfield__label" for="sample3">Password</label>
+        </div>
+
+        <button id="matbtn3" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick='location.href="ChooseModePage.html"'>
+                SIGN IN
+        </button>
+
+        <h6 id="QuestionText">Don't have an account yet?</h6>
+
+        <button id="SignUpBtn" class="mdl-button mdl-js-button" onclick='location.href=@Url.Action("Register","Register")'>
+                Sign Up
+        </button>
     </div>
-
-    <div id="PasswordTextBox" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="text" id="sample3">
-        <label class="mdl-textfield__label" for="sample3">Password</label>
-    </div>
-
-    <button id="matbtn3" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick='location.href="ChooseModePage.html"'>
-        SIGN IN
-    </button>
-
-    <h6 id="QuestionText">Don't have an account yet?</h6>
-
-    <button id="SignUpBtn" class="mdl-button mdl-js-button" onclick='location.href="SignUpPage.html"'>
-        Sign Up
-    </button>
-</div>
