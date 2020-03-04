@@ -1,0 +1,96 @@
+#LoginPage
+{
+    width: 300px;
+    height: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body
+{
+    position: relative;
+
+}
+
+#LoginText
+{
+    color: #569981;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50pt;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 550;
+}
+
+#LoginTextBox
+{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+
+#PasswordTextBox
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+
+.mdl-textfield__label:after {
+    background-color: #569981 !important;
+    color: #569981 !important;
+}
+
+.mdl-textfield__label {
+    font-family: 'Montserrat', sans-serif;
+    color: #569981 !important;
+}
+
+#matbtn3 {
+    font-size: 25px;
+    font-family: Montserrat;
+    border-radius: 8px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    width: 300px;
+    height: 70px;
+    transform: translate(-50%, -50%);
+    background-color: #569981;
+    transition: 0.3s;
+    letter-spacing: 2px;
+}
+
+#QuestionText
+{
+    color: #777c7a;
+    position: absolute;
+    top: 72%;
+    float: left;
+    margin-left: 95px;
+    transform: translate(-50%, -50%);
+    width: 190px;
+    font-size: 13pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: left;
+}
+
+#SignUpBtn {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 74%;
+    float: right;
+    margin-left: 87px;
+    width: 125px;
+    height: 30px;
+    transform: translate(-50%, -50%);
+    color: #569981;
+    transition: 0.3s;
+    letter-spacing: 2px;
+}
