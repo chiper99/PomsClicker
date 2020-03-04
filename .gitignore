@@ -36,8 +36,10 @@ msbuild.wrn
 
 # Visual Studio 2015
 .vs/
+.idea/
 
 **/node_modules/
 **/dist/
 **/lib/
 .vs
+.idea
