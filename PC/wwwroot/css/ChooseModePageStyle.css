@@ -610,3 +610,172 @@ body
         margin-left:120px;
     }
 }
+
+@media screen and (min-width: 362px) and (max-width: 499px)
+{
+    #HelloUsername
+    {
+        width: 285px;
+        font-size: 20pt;
+        line-height: 35px;
+    }
+    #ChooseMode
+    {
+        width:300px;
+        top:12%;
+        font-size: 15pt;
+        line-height: 35px;
+    }
+    #SinglePlayer
+    {
+        top:21%;
+        font-size: 15pt;
+    }
+    #ApplePic
+    {
+        top:30% !important;
+        width: 100px;
+        height: 100px;
+    }
+    #Multiplayer
+    {
+        top:41%;
+        font-size: 17.3pt;
+    }
+    #AppleMulti
+    {
+        top:61.5%;
+	    left:unset !important;
+	    transform:unset !important;
+        width: 100px;
+        height: 100px;
+        margin-left:-120px;
+	    position:relative !important;
+    }
+    #AppleReverse
+    {
+        top:unset !important;
+	    left:unset !important;
+	    transform: unset !important;
+        width: 100px;
+        height: 100px;
+        margin-left:120px !important;
+	    position:relative !important;
+    }
+    #Blitz
+    {
+        top:65%;
+        font-size: 17.3pt;
+    }
+    #AppleBlitz
+    {
+        top:77%;
+        width: 100px;
+        height: 100px;
+    }
+    #Cherry
+    {
+        top:77%;
+        width: 100px;
+        height: 100px;
+        margin-left:-120px;
+    }
+    #Lemon
+    {
+        top:77%;
+        width: 100px;
+        height: 100px;
+        margin-left:120px;
+    }
+    #multidiv
+    {
+	top:44%;
+	width:auto;
+	position:absolute;
+	transform: translate(50%,20%);
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 361px)
+{
+    #HelloUsername
+    {
+        width: 285px;
+        font-size: 20pt;
+        line-height: 35px;
+    }
+    #ChooseMode
+    {
+        width:300px;
+        top:12%;
+        font-size: 15pt;
+        line-height: 35px;
+    }
+    #SinglePlayer
+    {
+        top:21%;
+        font-size: 15pt;
+    }
+    #ApplePic
+    {
+        top:30% !important;
+        width: 80px !important;
+        height: 80px !important;
+    }
+    #Multiplayer
+    {
+        top:41%;
+        font-size: 17.3pt;
+    }
+    #AppleMulti
+    {
+        top:61.5%;
+	    left:unset !important;
+	    transform:unset !important;
+        width: 80px;
+        height: 80px;
+        margin-left:-70px;
+	    position:relative !important;
+    }
+    #AppleReverse
+    {
+        top:unset !important;
+	    left:unset !important;
+	    transform: unset !important;
+        width: 80px;
+        height: 80px;
+        margin-left:100px !important;
+	    position:relative !important;
+    }
+    #Blitz
+    {
+        top:65%;
+        font-size: 17.3pt;
+    }
+    #AppleBlitz
+    {
+        top:77%;
+        width: 80px;
+        height: 80px;
+    }
+    #Cherry
+    {
+        top:77%;
+        width: 80px;
+        height: 80px;
+        margin-left:-100px;
+    }
+    #Lemon
+    {
+        top:77%;
+        width: 80px;
+        height: 80px;
+        margin-left:100px;
+    }
+    #multidiv
+    {
+	top:44%;
+	width:auto;
+	position:absolute;
+	transform: translate(50%,20%);
+    }
+}
