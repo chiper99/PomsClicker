@@ -9,24 +9,28 @@
         <h6 id="ChooseMode">Choose your mode please:</h6>
 
         <h6 id="SinglePlayer">Single Player</h6>
-
+        
+        <a asp-controller="SinglePlayer" asp-action="SinglePlayer">
         <img id="ApplePic" src='Assets/Apple.png'/>
-
+        </a>
         <h6 id="Multiplayer">Multiplayer</h6>
-
+        
+        <!-- TODO: Сделать что бы весь див в котором кнопки был кликабельным-->
+        <a asp-controller="MultiPlayer" asp-action="MultiPlayer">
         <div  id="multidiv">
             <img id="AppleMulti" src='Assets/AppleMulti-07.jpg'/>
 
             <img id="AppleReverse" src='Assets/AppleReverse-07.jpg'/>
         </div>
-
+        </a>
         <h6 id="Blitz">Blitz</h6>
-
+        
+        <a asp-controller="Blitz" asp-action="Blitz">
         <div>
             <img id="AppleBlitz" src='Assets/AppleMulti-07.jpg'/>
             <img id="Cherry" src='Assets/Cherry.jpg'/>
             <img id="Lemon" src='Assets/Lemon.jpg'/>
         </div>
-       
+       </a>
     </div>
 </body>

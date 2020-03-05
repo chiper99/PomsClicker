@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\chiper\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\chiper\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_PC.-1850522935.00" t="ExcludeRecursive" />
-    <e p="D:\Учёба\PomsClicker" t="IncludeFlat">
+    <e p="C:\Users\chiper\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\chiper\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_PC.-860169277.00" t="ExcludeRecursive" />
+    <e p="C:\Users\chiper\Desktop\PomsClicker" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="PC" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
@@ -68,8 +68,1447 @@
           </e>
         </e>
         <e p="wwwroot" t="Include">
+          <e p="Assets" t="Include">
+            <e p="Apple.png" t="Include" />
+            <e p="AppleMulti-07.jpg" t="Include" />
+            <e p="AppleReverse-07.jpg" t="Include" />
+            <e p="Cherry.jpg" t="Include" />
+            <e p="Lemon.jpg" t="Include" />
+          </e>
           <e p="css" t="Include">
-            <e p="site.css" t="Include" />
+            <e p="bower_components" t="Include">
+              <e p="getmdl-select" t="Include">
+                <e p=".bower.json" t="Include" />
+                <e p="bower.json" t="Include" />
+                <e p="getmdl-select.min.css" t="Include" />
+                <e p="getmdl-select.min.css.map" t="Include" />
+                <e p="getmdl-select.min.js" t="Include" />
+                <e p="getmdl-select.min.js.map" t="Include" />
+                <e p="gulpfile.js" t="Include" />
+                <e p="LICENSE.txt" t="Include" />
+                <e p="package.json" t="Include" />
+                <e p="README.md" t="Include" />
+                <e p="src" t="Include">
+                  <e p="js" t="Include">
+                    <e p="getmdl-select.js" t="Include" />
+                  </e>
+                  <e p="scss" t="Include">
+                    <e p="getmdl-select.scss" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="material-design-lite" t="Include">
+                <e p=".bower.json" t="Include" />
+                <e p="bower.json" t="Include" />
+                <e p="gulpfile.babel.js" t="Include" />
+                <e p="LICENSE" t="Include" />
+                <e p="material.css" t="Include" />
+                <e p="material.js" t="Include" />
+                <e p="material.min.css" t="Include" />
+                <e p="material.min.css.map" t="Include" />
+                <e p="material.min.js" t="Include" />
+                <e p="material.min.js.map" t="Include" />
+                <e p="package.json" t="Include" />
+                <e p="README.md" t="Include" />
+                <e p="src" t="Include">
+                  <e p="_color-definitions.scss" t="Include" />
+                  <e p="_functions.scss" t="Include" />
+                  <e p="_mixins.scss" t="Include" />
+                  <e p="_variables.scss" t="Include" />
+                  <e p="animation" t="Include">
+                    <e p="_animation.scss" t="Include" />
+                    <e p="demo.css" t="Include" />
+                    <e p="demo.html" t="Include" />
+                    <e p="demo.js" t="Include" />
+                  </e>
+                  <e p="badge" t="Include">
+                    <e p="_badge.scss" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="badge-on-icon-icon-demo.html" t="Include" />
+                      <e p="badge-on-icon-icon.html" t="Include" />
+                      <e p="badge-on-icon-text-demo.html" t="Include" />
+                      <e p="badge-on-icon-text.html" t="Include" />
+                      <e p="badge-on-text-icon-demo.html" t="Include" />
+                      <e p="badge-on-text-icon.html" t="Include" />
+                      <e p="badge-on-text-text-demo.html" t="Include" />
+                      <e p="badge-on-text-text.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="button" t="Include">
+                    <e p="_button.scss" t="Include" />
+                    <e p="button.js" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="fab-colored-ripple.html" t="Include" />
+                      <e p="fab-colored.html" t="Include" />
+                      <e p="fab-disabled.html" t="Include" />
+                      <e p="fab-mini-colored.html" t="Include" />
+                      <e p="fab-mini.html" t="Include" />
+                      <e p="fab-ripple.html" t="Include" />
+                      <e p="fab.html" t="Include" />
+                      <e p="flat-accent.html" t="Include" />
+                      <e p="flat-disabled.html" t="Include" />
+                      <e p="flat-primary.html" t="Include" />
+                      <e p="flat-ripple.html" t="Include" />
+                      <e p="flat.html" t="Include" />
+                      <e p="icon-colored.html" t="Include" />
+                      <e p="icon.html" t="Include" />
+                      <e p="raised-accent.html" t="Include" />
+                      <e p="raised-colored.html" t="Include" />
+                      <e p="raised-disabled.html" t="Include" />
+                      <e p="raised-ripple-accent.html" t="Include" />
+                      <e p="raised-ripple.html" t="Include" />
+                      <e p="raised.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="card" t="Include">
+                    <e p="_card.scss" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="event.html" t="Include" />
+                      <e p="image.html" t="Include" />
+                      <e p="square.html" t="Include" />
+                      <e p="wide.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="checkbox" t="Include">
+                    <e p="_checkbox.scss" t="Include" />
+                    <e p="checkbox.js" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="check-off.html" t="Include" />
+                      <e p="check-on.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="data-table" t="Include">
+                    <e p="_data-table.scss" t="Include" />
+                    <e p="data-table.js" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="data-table.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="demos.css" t="Include" />
+                  <e p="dialog" t="Include">
+                    <e p="_dialog.scss" t="Include" />
+                    <e p="README.md" t="Include" />
+                  </e>
+                  <e p="footer" t="Include">
+                    <e p="_mega_footer.scss" t="Include" />
+                    <e p="_mini_footer.scss" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="mega-footer.html" t="Include" />
+                      <e p="mini-footer.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="grid" t="Include">
+                    <e p="_grid.scss" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="codepen-grid.css" t="Include" />
+                      <e p="grid-demo.html" t="Include" />
+                      <e p="grid.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="icon-toggle" t="Include">
+                    <e p="_icon-toggle.scss" t="Include" />
+                    <e p="icon-toggle.js" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="icon-off.html" t="Include" />
+                      <e p="icon-on.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="images" t="Include">
+                    <e p="buffer.svg" t="Include" />
+                    <e p="tick-mask.svg" t="Include" />
+                    <e p="tick.svg" t="Include" />
+                  </e>
+                  <e p="index.html" t="Include" />
+                  <e p="INTRODUCTION.md" t="Include" />
+                  <e p="layout" t="Include">
+                    <e p="_layout.scss" t="Include" />
+                    <e p="layout.js" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="fixed-drawer-demo.html" t="Include" />
+                      <e p="fixed-drawer.html" t="Include" />
+                      <e p="fixed-header-demo.html" t="Include" />
+                      <e p="fixed-header-drawer-demo.html" t="Include" />
+                      <e p="fixed-header-drawer.html" t="Include" />
+                      <e p="fixed-header.html" t="Include" />
+                      <e p="fixed-tabs-demo.html" t="Include" />
+                      <e p="fixed-tabs.html" t="Include" />
+                      <e p="scrollable-tabs-demo.html" t="Include" />
+                      <e p="scrollable-tabs.html" t="Include" />
+                      <e p="scrolling-header-demo.html" t="Include" />
+                      <e p="scrolling-header.html" t="Include" />
+                      <e p="transparent-demo.html" t="Include" />
+                      <e p="transparent.html" t="Include" />
+                      <e p="waterfall-header-demo.html" t="Include" />
+                      <e p="waterfall-header.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="list" t="Include">
+                    <e p="_list.scss" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="action.html" t="Include" />
+                      <e p="icon.html" t="Include" />
+                      <e p="list-control.html" t="Include" />
+                      <e p="list-item.html" t="Include" />
+                      <e p="three-line.html" t="Include" />
+                      <e p="two-line.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="material-design-lite-grid.scss" t="Include" />
+                  <e p="material-design-lite.scss" t="Include" />
+                  <e p="mdlComponentHandler.js" t="Include" />
+                  <e p="menu" t="Include">
+                    <e p="_menu.scss" t="Include" />
+                    <e p="menu.js" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="codepen-lower-buttons.css" t="Include" />
+                      <e p="codepen-top-buttons.css" t="Include" />
+                      <e p="lower-left-demo.html" t="Include" />
+                      <e p="lower-left.html" t="Include" />
+                      <e p="lower-right-demo.html" t="Include" />
+                      <e p="lower-right.html" t="Include" />
+                      <e p="top-left-demo.html" t="Include" />
+                      <e p="top-left.html" t="Include" />
+                      <e p="top-right-demo.html" t="Include" />
+                      <e p="top-right.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="palette" t="Include">
+                    <e p="_palette.scss" t="Include" />
+                    <e p="demo.css" t="Include" />
+                    <e p="demo.html" t="Include" />
+                  </e>
+                  <e p="progress" t="Include">
+                    <e p="_progress.scss" t="Include" />
+                    <e p="progress.js" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="progress-buffering-demo.html" t="Include" />
+                      <e p="progress-buffering.html" t="Include" />
+                      <e p="progress-default-demo.html" t="Include" />
+                      <e p="progress-default.html" t="Include" />
+                      <e p="progress-indeterminate-demo.html" t="Include" />
+                      <e p="progress-indeterminate.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="radio" t="Include">
+                    <e p="_radio.scss" t="Include" />
+                    <e p="radio.js" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="radio-off.html" t="Include" />
+                      <e p="radio-on.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="resets" t="Include">
+                    <e p="_h5bp.scss" t="Include" />
+                    <e p="_mobile.scss" t="Include" />
+                    <e p="_resets.scss" t="Include" />
+                  </e>
+                  <e p="ripple" t="Include">
+                    <e p="_ripple.scss" t="Include" />
+                    <e p="ripple.js" t="Include" />
+                  </e>
+                  <e p="shadow" t="Include">
+                    <e p="_shadow.scss" t="Include" />
+                    <e p="demo.css" t="Include" />
+                    <e p="demo.html" t="Include" />
+                    <e p="README.md" t="Include" />
+                  </e>
+                  <e p="slider" t="Include">
+                    <e p="_slider.scss" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="slider.js" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="demo.html" t="Include" />
+                      <e p="slider-default-demo.html" t="Include" />
+                      <e p="slider-default.html" t="Include" />
+                      <e p="slider-starting-value-demo.html" t="Include" />
+                      <e p="slider-starting-value.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="snackbar" t="Include">
+                    <e p="_snackbar.scss" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snackbar.js" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="snackbar.html" t="Include" />
+                      <e p="toast.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="spinner" t="Include">
+                    <e p="_spinner.scss" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="spinner-default.html" t="Include" />
+                      <e p="spinner-single-color.html" t="Include" />
+                    </e>
+                    <e p="spinner.js" t="Include" />
+                  </e>
+                  <e p="styleguide.scss" t="Include" />
+                  <e p="switch" t="Include">
+                    <e p="_switch.scss" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="switch-off.html" t="Include" />
+                      <e p="switch-on.html" t="Include" />
+                    </e>
+                    <e p="switch.js" t="Include" />
+                  </e>
+                  <e p="tabs" t="Include">
+                    <e p="_tabs.scss" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="tabs.html" t="Include" />
+                    </e>
+                    <e p="tabs.js" t="Include" />
+                  </e>
+                  <e p="template.scss" t="Include" />
+                  <e p="textfield" t="Include">
+                    <e p="_textfield.scss" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="textfield-expanding-demo.html" t="Include" />
+                      <e p="textfield-expanding.html" t="Include" />
+                      <e p="textfield-floating-numeric-demo.html" t="Include" />
+                      <e p="textfield-floating-numeric.html" t="Include" />
+                      <e p="textfield-floating-text-demo.html" t="Include" />
+                      <e p="textfield-floating-text.html" t="Include" />
+                      <e p="textfield-multi-line-demo.html" t="Include" />
+                      <e p="textfield-multi-line.html" t="Include" />
+                      <e p="textfield-numeric-demo.html" t="Include" />
+                      <e p="textfield-numeric.html" t="Include" />
+                      <e p="textfield-text-demo.html" t="Include" />
+                      <e p="textfield-text.html" t="Include" />
+                    </e>
+                    <e p="textfield.js" t="Include" />
+                  </e>
+                  <e p="third_party" t="Include">
+                    <e p="rAF.js" t="Include" />
+                  </e>
+                  <e p="tooltip" t="Include">
+                    <e p="_tooltip.scss" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="tooltip-large.html" t="Include" />
+                      <e p="tooltip-multiline.html" t="Include" />
+                      <e p="tooltip-rich.html" t="Include" />
+                      <e p="tooltip-simple.html" t="Include" />
+                    </e>
+                    <e p="tooltip.js" t="Include" />
+                  </e>
+                  <e p="typography" t="Include">
+                    <e p="_typography.scss" t="Include" />
+                    <e p="demo.css" t="Include" />
+                    <e p="demo.html" t="Include" />
+                    <e p="README.md" t="Include" />
+                  </e>
+                </e>
+                <e p="utils" t="Include">
+                  <e p="jscs-rules" t="Include">
+                    <e p="closure-camel-case.js" t="Include" />
+                  </e>
+                  <e p="uniffe.js" t="Include" />
+                </e>
+              </e>
+              <e p="mdl-selectfield" t="Include">
+                <e p=".bower.json" t="Include" />
+                <e p="bower.json" t="Include" />
+                <e p="CHANGELOG.md" t="Include" />
+                <e p="dist" t="Include">
+                  <e p="mdl-selectfield.css" t="Include" />
+                  <e p="mdl-selectfield.js" t="Include" />
+                  <e p="mdl-selectfield.min.css" t="Include" />
+                  <e p="mdl-selectfield.min.css.map" t="Include" />
+                  <e p="mdl-selectfield.min.js" t="Include" />
+                  <e p="mdl-selectfield.min.js.map" t="Include" />
+                </e>
+                <e p="gulpfile.js" t="Include" />
+                <e p="LICENSE" t="Include" />
+                <e p="package.json" t="Include" />
+                <e p="README.md" t="Include" />
+                <e p="src" t="Include">
+                  <e p="globals.scss" t="Include" />
+                  <e p="selectfield" t="Include">
+                    <e p="selectfield.js" t="Include" />
+                    <e p="selectfield.scss" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+            <e p="ChooseModePageStyle.css" t="Include" />
+            <e p="mdl_style.css" t="Include" />
+            <e p="node_modules" t="Include">
+              <e p="getmdl-select" t="Include">
+                <e p=".idea" t="Include">
+                  <e p="getmdl-select.iml" t="Include" />
+                  <e p="misc.xml" t="Include" />
+                  <e p="modules.xml" t="Include" />
+                  <e p="vcs.xml" t="Include" />
+                  <e p="workspace.xml" t="Include" />
+                </e>
+                <e p=".npmignore" t="Include" />
+                <e p=".test" t="Include">
+                  <e p="getmdl-select-tabs.html" t="Include" />
+                  <e p="index.html" t="Include" />
+                </e>
+                <e p="bower.json" t="Include" />
+                <e p="getmdl-select-2.0.tgz" t="Include" />
+                <e p="getmdl-select-2.0.zip" t="Include" />
+                <e p="getmdl-select.min.css" t="Include" />
+                <e p="getmdl-select.min.css.map" t="Include" />
+                <e p="getmdl-select.min.js" t="Include" />
+                <e p="getmdl-select.min.js.map" t="Include" />
+                <e p="gulpfile.js" t="Include" />
+                <e p="LICENSE.txt" t="Include" />
+                <e p="package.json" t="Include" />
+                <e p="README.md" t="Include" />
+                <e p="src" t="Include">
+                  <e p="js" t="Include">
+                    <e p="getmdl-select.js" t="Include" />
+                  </e>
+                  <e p="scss" t="Include">
+                    <e p="getmdl-select.scss" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="material-design-lite" t="Include">
+                <e p=".jscsrc" t="Include" />
+                <e p=".jshintrc" t="Include" />
+                <e p=".tmp" t="Include">
+                  <e p="material-design-lite-grid.css" t="Include" />
+                  <e p="material-design-lite.css" t="Include" />
+                  <e p="template.css" t="Include" />
+                </e>
+                <e p="bower.json" t="Include" />
+                <e p="dist" t="Include">
+                  <e p="Assets" t="Include">
+                    <e p="android-desktop.png" t="Include" />
+                    <e p="app-icon.png" t="Include" />
+                    <e p="button_degradation.png" t="Include" />
+                    <e p="codepen-logo.png" t="Include" />
+                    <e p="codepen.js" t="Include" />
+                    <e p="colors.svg" t="Include" />
+                    <e p="comp_badges.png" t="Include" />
+                    <e p="comp_buttons.png" t="Include" />
+                    <e p="comp_cards.png" t="Include" />
+                    <e p="comp_chips.png" t="Include" />
+                    <e p="comp_dialog.png" t="Include" />
+                    <e p="comp_layout.png" t="Include" />
+                    <e p="comp_lists.png" t="Include" />
+                    <e p="comp_loading.png" t="Include" />
+                    <e p="comp_menus.png" t="Include" />
+                    <e p="comp_sliders.png" t="Include" />
+                    <e p="comp_snackbar.png" t="Include" />
+                    <e p="comp_tables.png" t="Include" />
+                    <e p="comp_textfields.png" t="Include" />
+                    <e p="comp_toggles.png" t="Include" />
+                    <e p="comp_tooltips.png" t="Include" />
+                    <e p="compindex.png" t="Include" />
+                    <e p="compindex_2x.png" t="Include" />
+                    <e p="components.css" t="Include" />
+                    <e p="components.js" t="Include" />
+                    <e p="components.png" t="Include" />
+                    <e p="components.svg" t="Include" />
+                    <e p="components_2x.png" t="Include" />
+                    <e p="components_mo.svg" t="Include" />
+                    <e p="customize.png" t="Include" />
+                    <e p="customize.svg" t="Include" />
+                    <e p="customize_2x.png" t="Include" />
+                    <e p="customize_mo.svg" t="Include" />
+                    <e p="customizer.css" t="Include" />
+                    <e p="customizer.js" t="Include" />
+                    <e p="customizer.png" t="Include" />
+                    <e p="demos" t="Include">
+                      <e p="dog.png" t="Include" />
+                      <e p="image_card.jpg" t="Include" />
+                      <e p="transparent.jpg" t="Include" />
+                      <e p="welcome_card.jpg" t="Include" />
+                    </e>
+                    <e p="faq" t="Include">
+                      <e p="subscribe-single-issue.png" t="Include" />
+                    </e>
+                    <e p="favicon.png" t="Include" />
+                    <e p="github_white_24.svg" t="Include" />
+                    <e p="google-services.png" t="Include" />
+                    <e p="header.jpg" t="Include" />
+                    <e p="header_2x.jpg" t="Include" />
+                    <e p="icons.svg" t="Include" />
+                    <e p="ie.css" t="Include" />
+                    <e p="img-1.png" t="Include" />
+                    <e p="img-2.png" t="Include" />
+                    <e p="index.js" t="Include" />
+                    <e p="ios-desktop.png" t="Include" />
+                    <e p="logo.png" t="Include" />
+                    <e p="logo.svg" t="Include" />
+                    <e p="main.css" t="Include" />
+                    <e p="main.js" t="Include" />
+                    <e p="mo.svg" t="Include" />
+                    <e p="prism-bash.min.js" t="Include" />
+                    <e p="prism-css.min.js" t="Include" />
+                    <e p="prism-default.css" t="Include" />
+                    <e p="prism-javascript.min.js" t="Include" />
+                    <e p="prism-markup.min.js" t="Include" />
+                    <e p="prism.js" t="Include" />
+                    <e p="rich-media-gallery.png" t="Include" />
+                    <e p="shapes.svg" t="Include" />
+                    <e p="showcase" t="Include">
+                      <e p="contributor.jpg" t="Include" />
+                      <e p="contributor_2x.jpg" t="Include" />
+                      <e p="developers.jpg" t="Include" />
+                      <e p="developers_2x.jpg" t="Include" />
+                      <e p="rework.jpg" t="Include" />
+                      <e p="rework_2x.jpg" t="Include" />
+                      <e p="sunroof.jpg" t="Include" />
+                      <e p="sunroof_2x.jpg" t="Include" />
+                      <e p="wallet.jpg" t="Include" />
+                      <e p="wallet_2x.jpg" t="Include" />
+                      <e p="work_partners.jpg" t="Include" />
+                      <e p="work_partners_2x.jpg" t="Include" />
+                    </e>
+                    <e p="sliders_degradation.png" t="Include" />
+                    <e p="snippets.js" t="Include" />
+                    <e p="styles.png" t="Include" />
+                    <e p="styles.svg" t="Include" />
+                    <e p="styles_2x.png" t="Include" />
+                    <e p="styles_mo.svg" t="Include" />
+                    <e p="table_degradation.png" t="Include" />
+                    <e p="template-preview.png" t="Include" />
+                    <e p="templates" t="Include">
+                      <e p="android-dot-com.jpg" t="Include" />
+                      <e p="android-dot-com_2x.jpg" t="Include" />
+                      <e p="article.jpg" t="Include" />
+                      <e p="article_2x.jpg" t="Include" />
+                      <e p="blog.jpg" t="Include" />
+                      <e p="blog_2x.jpg" t="Include" />
+                      <e p="dashboard.jpg" t="Include" />
+                      <e p="dashboard_2x.jpg" t="Include" />
+                      <e p="general.jpg" t="Include" />
+                      <e p="general_2x.jpg" t="Include" />
+                      <e p="portfolio.jpg" t="Include" />
+                      <e p="portfolio_2x.jpg" t="Include" />
+                      <e p="product.jpg" t="Include" />
+                      <e p="product_2x.jpg" t="Include" />
+                      <e p="text-only.jpg" t="Include" />
+                      <e p="text-only_2x.jpg" t="Include" />
+                    </e>
+                    <e p="templates.png" t="Include" />
+                    <e p="templates.svg" t="Include" />
+                    <e p="templates_2x.png" t="Include" />
+                    <e p="templates_mo.svg" t="Include" />
+                  </e>
+                  <e p="bower.json" t="Include" />
+                  <e p="components" t="Include">
+                    <e p="animation" t="Include">
+                      <e p="demo.css" t="Include" />
+                      <e p="demo.html" t="Include" />
+                      <e p="demo.js" t="Include" />
+                    </e>
+                    <e p="badge" t="Include">
+                      <e p="demo.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="button" t="Include">
+                      <e p="demo.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="card" t="Include">
+                      <e p="demo.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="checkbox" t="Include">
+                      <e p="demo.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="chip" t="Include">
+                      <e p="demo.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="data-table" t="Include">
+                      <e p="demo.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="demos.css" t="Include" />
+                    <e p="dialog" t="Include">
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="footer" t="Include">
+                      <e p="demo.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="grid" t="Include">
+                      <e p="demo.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="icon-toggle" t="Include">
+                      <e p="demo.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="index.html" t="Include" />
+                    <e p="layout" t="Include">
+                      <e p="demo.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="list" t="Include">
+                      <e p="demo.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="menu" t="Include">
+                      <e p="demo.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="palette" t="Include">
+                      <e p="demo.css" t="Include" />
+                      <e p="demo.html" t="Include" />
+                    </e>
+                    <e p="progress" t="Include">
+                      <e p="demo.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="radio" t="Include">
+                      <e p="demo.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="shadow" t="Include">
+                      <e p="demo.css" t="Include" />
+                      <e p="demo.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="slider" t="Include">
+                      <e p="demo.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="snackbar" t="Include">
+                      <e p="demo.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="spinner" t="Include">
+                      <e p="demo.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="switch" t="Include">
+                      <e p="demo.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="tabs" t="Include">
+                      <e p="demo.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="textfield" t="Include">
+                      <e p="demo.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="tooltip" t="Include">
+                      <e p="demo.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="typography" t="Include">
+                      <e p="demo.css" t="Include" />
+                      <e p="demo.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="customize" t="Include">
+                    <e p="index.html" t="Include" />
+                  </e>
+                  <e p="faq" t="Include">
+                    <e p="index.html" t="Include" />
+                  </e>
+                  <e p="images" t="Include">
+                    <e p="buffer.svg" t="Include" />
+                    <e p="tick-mask.svg" t="Include" />
+                    <e p="tick.svg" t="Include" />
+                  </e>
+                  <e p="index.html" t="Include" />
+                  <e p="LICENSE" t="Include" />
+                  <e p="material-grid.css" t="Include" />
+                  <e p="material-grid.min.css" t="Include" />
+                  <e p="material.amber-blue.min.css" t="Include" />
+                  <e p="material.amber-cyan.min.css" t="Include" />
+                  <e p="material.amber-deep_orange.min.css" t="Include" />
+                  <e p="material.amber-deep_purple.min.css" t="Include" />
+                  <e p="material.amber-green.min.css" t="Include" />
+                  <e p="material.amber-indigo.min.css" t="Include" />
+                  <e p="material.amber-light_blue.min.css" t="Include" />
+                  <e p="material.amber-light_green.min.css" t="Include" />
+                  <e p="material.amber-lime.min.css" t="Include" />
+                  <e p="material.amber-orange.min.css" t="Include" />
+                  <e p="material.amber-pink.min.css" t="Include" />
+                  <e p="material.amber-purple.min.css" t="Include" />
+                  <e p="material.amber-red.min.css" t="Include" />
+                  <e p="material.amber-teal.min.css" t="Include" />
+                  <e p="material.amber-yellow.min.css" t="Include" />
+                  <e p="material.blue-amber.min.css" t="Include" />
+                  <e p="material.blue-cyan.min.css" t="Include" />
+                  <e p="material.blue-deep_orange.min.css" t="Include" />
+                  <e p="material.blue-deep_purple.min.css" t="Include" />
+                  <e p="material.blue-green.min.css" t="Include" />
+                  <e p="material.blue-indigo.min.css" t="Include" />
+                  <e p="material.blue-light_blue.min.css" t="Include" />
+                  <e p="material.blue-light_green.min.css" t="Include" />
+                  <e p="material.blue-lime.min.css" t="Include" />
+                  <e p="material.blue-orange.min.css" t="Include" />
+                  <e p="material.blue-pink.min.css" t="Include" />
+                  <e p="material.blue-purple.min.css" t="Include" />
+                  <e p="material.blue-red.min.css" t="Include" />
+                  <e p="material.blue-teal.min.css" t="Include" />
+                  <e p="material.blue-yellow.min.css" t="Include" />
+                  <e p="material.blue_grey-amber.min.css" t="Include" />
+                  <e p="material.blue_grey-blue.min.css" t="Include" />
+                  <e p="material.blue_grey-cyan.min.css" t="Include" />
+                  <e p="material.blue_grey-deep_orange.min.css" t="Include" />
+                  <e p="material.blue_grey-deep_purple.min.css" t="Include" />
+                  <e p="material.blue_grey-green.min.css" t="Include" />
+                  <e p="material.blue_grey-indigo.min.css" t="Include" />
+                  <e p="material.blue_grey-light_blue.min.css" t="Include" />
+                  <e p="material.blue_grey-light_green.min.css" t="Include" />
+                  <e p="material.blue_grey-lime.min.css" t="Include" />
+                  <e p="material.blue_grey-orange.min.css" t="Include" />
+                  <e p="material.blue_grey-pink.min.css" t="Include" />
+                  <e p="material.blue_grey-purple.min.css" t="Include" />
+                  <e p="material.blue_grey-red.min.css" t="Include" />
+                  <e p="material.blue_grey-teal.min.css" t="Include" />
+                  <e p="material.blue_grey-yellow.min.css" t="Include" />
+                  <e p="material.brown-amber.min.css" t="Include" />
+                  <e p="material.brown-blue.min.css" t="Include" />
+                  <e p="material.brown-cyan.min.css" t="Include" />
+                  <e p="material.brown-deep_orange.min.css" t="Include" />
+                  <e p="material.brown-deep_purple.min.css" t="Include" />
+                  <e p="material.brown-green.min.css" t="Include" />
+                  <e p="material.brown-indigo.min.css" t="Include" />
+                  <e p="material.brown-light_blue.min.css" t="Include" />
+                  <e p="material.brown-light_green.min.css" t="Include" />
+                  <e p="material.brown-lime.min.css" t="Include" />
+                  <e p="material.brown-orange.min.css" t="Include" />
+                  <e p="material.brown-pink.min.css" t="Include" />
+                  <e p="material.brown-purple.min.css" t="Include" />
+                  <e p="material.brown-red.min.css" t="Include" />
+                  <e p="material.brown-teal.min.css" t="Include" />
+                  <e p="material.brown-yellow.min.css" t="Include" />
+                  <e p="material.css" t="Include" />
+                  <e p="material.css.template" t="Include" />
+                  <e p="material.cyan-amber.min.css" t="Include" />
+                  <e p="material.cyan-blue.min.css" t="Include" />
+                  <e p="material.cyan-deep_orange.min.css" t="Include" />
+                  <e p="material.cyan-deep_purple.min.css" t="Include" />
+                  <e p="material.cyan-green.min.css" t="Include" />
+                  <e p="material.cyan-indigo.min.css" t="Include" />
+                  <e p="material.cyan-light_blue.min.css" t="Include" />
+                  <e p="material.cyan-light_green.min.css" t="Include" />
+                  <e p="material.cyan-lime.min.css" t="Include" />
+                  <e p="material.cyan-orange.min.css" t="Include" />
+                  <e p="material.cyan-pink.min.css" t="Include" />
+                  <e p="material.cyan-purple.min.css" t="Include" />
+                  <e p="material.cyan-red.min.css" t="Include" />
+                  <e p="material.cyan-teal.min.css" t="Include" />
+                  <e p="material.cyan-yellow.min.css" t="Include" />
+                  <e p="material.deep_orange-amber.min.css" t="Include" />
+                  <e p="material.deep_orange-blue.min.css" t="Include" />
+                  <e p="material.deep_orange-cyan.min.css" t="Include" />
+                  <e p="material.deep_orange-deep_purple.min.css" t="Include" />
+                  <e p="material.deep_orange-green.min.css" t="Include" />
+                  <e p="material.deep_orange-indigo.min.css" t="Include" />
+                  <e p="material.deep_orange-light_blue.min.css" t="Include" />
+                  <e p="material.deep_orange-light_green.min.css" t="Include" />
+                  <e p="material.deep_orange-lime.min.css" t="Include" />
+                  <e p="material.deep_orange-orange.min.css" t="Include" />
+                  <e p="material.deep_orange-pink.min.css" t="Include" />
+                  <e p="material.deep_orange-purple.min.css" t="Include" />
+                  <e p="material.deep_orange-red.min.css" t="Include" />
+                  <e p="material.deep_orange-teal.min.css" t="Include" />
+                  <e p="material.deep_orange-yellow.min.css" t="Include" />
+                  <e p="material.deep_purple-amber.min.css" t="Include" />
+                  <e p="material.deep_purple-blue.min.css" t="Include" />
+                  <e p="material.deep_purple-cyan.min.css" t="Include" />
+                  <e p="material.deep_purple-deep_orange.min.css" t="Include" />
+                  <e p="material.deep_purple-green.min.css" t="Include" />
+                  <e p="material.deep_purple-indigo.min.css" t="Include" />
+                  <e p="material.deep_purple-light_blue.min.css" t="Include" />
+                  <e p="material.deep_purple-light_green.min.css" t="Include" />
+                  <e p="material.deep_purple-lime.min.css" t="Include" />
+                  <e p="material.deep_purple-orange.min.css" t="Include" />
+                  <e p="material.deep_purple-pink.min.css" t="Include" />
+                  <e p="material.deep_purple-purple.min.css" t="Include" />
+                  <e p="material.deep_purple-red.min.css" t="Include" />
+                  <e p="material.deep_purple-teal.min.css" t="Include" />
+                  <e p="material.deep_purple-yellow.min.css" t="Include" />
+                  <e p="material.green-amber.min.css" t="Include" />
+                  <e p="material.green-blue.min.css" t="Include" />
+                  <e p="material.green-cyan.min.css" t="Include" />
+                  <e p="material.green-deep_orange.min.css" t="Include" />
+                  <e p="material.green-deep_purple.min.css" t="Include" />
+                  <e p="material.green-indigo.min.css" t="Include" />
+                  <e p="material.green-light_blue.min.css" t="Include" />
+                  <e p="material.green-light_green.min.css" t="Include" />
+                  <e p="material.green-lime.min.css" t="Include" />
+                  <e p="material.green-orange.min.css" t="Include" />
+                  <e p="material.green-pink.min.css" t="Include" />
+                  <e p="material.green-purple.min.css" t="Include" />
+                  <e p="material.green-red.min.css" t="Include" />
+                  <e p="material.green-teal.min.css" t="Include" />
+                  <e p="material.green-yellow.min.css" t="Include" />
+                  <e p="material.grey-amber.min.css" t="Include" />
+                  <e p="material.grey-blue.min.css" t="Include" />
+                  <e p="material.grey-cyan.min.css" t="Include" />
+                  <e p="material.grey-deep_orange.min.css" t="Include" />
+                  <e p="material.grey-deep_purple.min.css" t="Include" />
+                  <e p="material.grey-green.min.css" t="Include" />
+                  <e p="material.grey-indigo.min.css" t="Include" />
+                  <e p="material.grey-light_blue.min.css" t="Include" />
+                  <e p="material.grey-light_green.min.css" t="Include" />
+                  <e p="material.grey-lime.min.css" t="Include" />
+                  <e p="material.grey-orange.min.css" t="Include" />
+                  <e p="material.grey-pink.min.css" t="Include" />
+                  <e p="material.grey-purple.min.css" t="Include" />
+                  <e p="material.grey-red.min.css" t="Include" />
+                  <e p="material.grey-teal.min.css" t="Include" />
+                  <e p="material.grey-yellow.min.css" t="Include" />
+                  <e p="material.indigo-amber.min.css" t="Include" />
+                  <e p="material.indigo-blue.min.css" t="Include" />
+                  <e p="material.indigo-cyan.min.css" t="Include" />
+                  <e p="material.indigo-deep_orange.min.css" t="Include" />
+                  <e p="material.indigo-deep_purple.min.css" t="Include" />
+                  <e p="material.indigo-green.min.css" t="Include" />
+                  <e p="material.indigo-light_blue.min.css" t="Include" />
+                  <e p="material.indigo-light_green.min.css" t="Include" />
+                  <e p="material.indigo-lime.min.css" t="Include" />
+                  <e p="material.indigo-orange.min.css" t="Include" />
+                  <e p="material.indigo-pink.min.css" t="Include" />
+                  <e p="material.indigo-purple.min.css" t="Include" />
+                  <e p="material.indigo-red.min.css" t="Include" />
+                  <e p="material.indigo-teal.min.css" t="Include" />
+                  <e p="material.indigo-yellow.min.css" t="Include" />
+                  <e p="material.js" t="Include" />
+                  <e p="material.light_blue-amber.min.css" t="Include" />
+                  <e p="material.light_blue-blue.min.css" t="Include" />
+                  <e p="material.light_blue-cyan.min.css" t="Include" />
+                  <e p="material.light_blue-deep_orange.min.css" t="Include" />
+                  <e p="material.light_blue-deep_purple.min.css" t="Include" />
+                  <e p="material.light_blue-green.min.css" t="Include" />
+                  <e p="material.light_blue-indigo.min.css" t="Include" />
+                  <e p="material.light_blue-light_green.min.css" t="Include" />
+                  <e p="material.light_blue-lime.min.css" t="Include" />
+                  <e p="material.light_blue-orange.min.css" t="Include" />
+                  <e p="material.light_blue-pink.min.css" t="Include" />
+                  <e p="material.light_blue-purple.min.css" t="Include" />
+                  <e p="material.light_blue-red.min.css" t="Include" />
+                  <e p="material.light_blue-teal.min.css" t="Include" />
+                  <e p="material.light_blue-yellow.min.css" t="Include" />
+                  <e p="material.light_green-amber.min.css" t="Include" />
+                  <e p="material.light_green-blue.min.css" t="Include" />
+                  <e p="material.light_green-cyan.min.css" t="Include" />
+                  <e p="material.light_green-deep_orange.min.css" t="Include" />
+                  <e p="material.light_green-deep_purple.min.css" t="Include" />
+                  <e p="material.light_green-green.min.css" t="Include" />
+                  <e p="material.light_green-indigo.min.css" t="Include" />
+                  <e p="material.light_green-light_blue.min.css" t="Include" />
+                  <e p="material.light_green-lime.min.css" t="Include" />
+                  <e p="material.light_green-orange.min.css" t="Include" />
+                  <e p="material.light_green-pink.min.css" t="Include" />
+                  <e p="material.light_green-purple.min.css" t="Include" />
+                  <e p="material.light_green-red.min.css" t="Include" />
+                  <e p="material.light_green-teal.min.css" t="Include" />
+                  <e p="material.light_green-yellow.min.css" t="Include" />
+                  <e p="material.lime-amber.min.css" t="Include" />
+                  <e p="material.lime-blue.min.css" t="Include" />
+                  <e p="material.lime-cyan.min.css" t="Include" />
+                  <e p="material.lime-deep_orange.min.css" t="Include" />
+                  <e p="material.lime-deep_purple.min.css" t="Include" />
+                  <e p="material.lime-green.min.css" t="Include" />
+                  <e p="material.lime-indigo.min.css" t="Include" />
+                  <e p="material.lime-light_blue.min.css" t="Include" />
+                  <e p="material.lime-light_green.min.css" t="Include" />
+                  <e p="material.lime-orange.min.css" t="Include" />
+                  <e p="material.lime-pink.min.css" t="Include" />
+                  <e p="material.lime-purple.min.css" t="Include" />
+                  <e p="material.lime-red.min.css" t="Include" />
+                  <e p="material.lime-teal.min.css" t="Include" />
+                  <e p="material.lime-yellow.min.css" t="Include" />
+                  <e p="material.min.css" t="Include" />
+                  <e p="material.min.css.map" t="Include" />
+                  <e p="material.min.css.template" t="Include" />
+                  <e p="material.min.css.template.map" t="Include" />
+                  <e p="material.min.js" t="Include" />
+                  <e p="material.min.js.map" t="Include" />
+                  <e p="material.orange-amber.min.css" t="Include" />
+                  <e p="material.orange-blue.min.css" t="Include" />
+                  <e p="material.orange-cyan.min.css" t="Include" />
+                  <e p="material.orange-deep_orange.min.css" t="Include" />
+                  <e p="material.orange-deep_purple.min.css" t="Include" />
+                  <e p="material.orange-green.min.css" t="Include" />
+                  <e p="material.orange-indigo.min.css" t="Include" />
+                  <e p="material.orange-light_blue.min.css" t="Include" />
+                  <e p="material.orange-light_green.min.css" t="Include" />
+                  <e p="material.orange-lime.min.css" t="Include" />
+                  <e p="material.orange-pink.min.css" t="Include" />
+                  <e p="material.orange-purple.min.css" t="Include" />
+                  <e p="material.orange-red.min.css" t="Include" />
+                  <e p="material.orange-teal.min.css" t="Include" />
+                  <e p="material.orange-yellow.min.css" t="Include" />
+                  <e p="material.pink-amber.min.css" t="Include" />
+                  <e p="material.pink-blue.min.css" t="Include" />
+                  <e p="material.pink-cyan.min.css" t="Include" />
+                  <e p="material.pink-deep_orange.min.css" t="Include" />
+                  <e p="material.pink-deep_purple.min.css" t="Include" />
+                  <e p="material.pink-green.min.css" t="Include" />
+                  <e p="material.pink-indigo.min.css" t="Include" />
+                  <e p="material.pink-light_blue.min.css" t="Include" />
+                  <e p="material.pink-light_green.min.css" t="Include" />
+                  <e p="material.pink-lime.min.css" t="Include" />
+                  <e p="material.pink-orange.min.css" t="Include" />
+                  <e p="material.pink-purple.min.css" t="Include" />
+                  <e p="material.pink-red.min.css" t="Include" />
+                  <e p="material.pink-teal.min.css" t="Include" />
+                  <e p="material.pink-yellow.min.css" t="Include" />
+                  <e p="material.purple-amber.min.css" t="Include" />
+                  <e p="material.purple-blue.min.css" t="Include" />
+                  <e p="material.purple-cyan.min.css" t="Include" />
+                  <e p="material.purple-deep_orange.min.css" t="Include" />
+                  <e p="material.purple-deep_purple.min.css" t="Include" />
+                  <e p="material.purple-green.min.css" t="Include" />
+                  <e p="material.purple-indigo.min.css" t="Include" />
+                  <e p="material.purple-light_blue.min.css" t="Include" />
+                  <e p="material.purple-light_green.min.css" t="Include" />
+                  <e p="material.purple-lime.min.css" t="Include" />
+                  <e p="material.purple-orange.min.css" t="Include" />
+                  <e p="material.purple-pink.min.css" t="Include" />
+                  <e p="material.purple-red.min.css" t="Include" />
+                  <e p="material.purple-teal.min.css" t="Include" />
+                  <e p="material.purple-yellow.min.css" t="Include" />
+                  <e p="material.red-amber.min.css" t="Include" />
+                  <e p="material.red-blue.min.css" t="Include" />
+                  <e p="material.red-cyan.min.css" t="Include" />
+                  <e p="material.red-deep_orange.min.css" t="Include" />
+                  <e p="material.red-deep_purple.min.css" t="Include" />
+                  <e p="material.red-green.min.css" t="Include" />
+                  <e p="material.red-indigo.min.css" t="Include" />
+                  <e p="material.red-light_blue.min.css" t="Include" />
+                  <e p="material.red-light_green.min.css" t="Include" />
+                  <e p="material.red-lime.min.css" t="Include" />
+                  <e p="material.red-orange.min.css" t="Include" />
+                  <e p="material.red-pink.min.css" t="Include" />
+                  <e p="material.red-purple.min.css" t="Include" />
+                  <e p="material.red-teal.min.css" t="Include" />
+                  <e p="material.red-yellow.min.css" t="Include" />
+                  <e p="material.teal-amber.min.css" t="Include" />
+                  <e p="material.teal-blue.min.css" t="Include" />
+                  <e p="material.teal-cyan.min.css" t="Include" />
+                  <e p="material.teal-deep_orange.min.css" t="Include" />
+                  <e p="material.teal-deep_purple.min.css" t="Include" />
+                  <e p="material.teal-green.min.css" t="Include" />
+                  <e p="material.teal-indigo.min.css" t="Include" />
+                  <e p="material.teal-light_blue.min.css" t="Include" />
+                  <e p="material.teal-light_green.min.css" t="Include" />
+                  <e p="material.teal-lime.min.css" t="Include" />
+                  <e p="material.teal-orange.min.css" t="Include" />
+                  <e p="material.teal-pink.min.css" t="Include" />
+                  <e p="material.teal-purple.min.css" t="Include" />
+                  <e p="material.teal-red.min.css" t="Include" />
+                  <e p="material.teal-yellow.min.css" t="Include" />
+                  <e p="material.yellow-amber.min.css" t="Include" />
+                  <e p="material.yellow-blue.min.css" t="Include" />
+                  <e p="material.yellow-cyan.min.css" t="Include" />
+                  <e p="material.yellow-deep_orange.min.css" t="Include" />
+                  <e p="material.yellow-deep_purple.min.css" t="Include" />
+                  <e p="material.yellow-green.min.css" t="Include" />
+                  <e p="material.yellow-indigo.min.css" t="Include" />
+                  <e p="material.yellow-light_blue.min.css" t="Include" />
+                  <e p="material.yellow-light_green.min.css" t="Include" />
+                  <e p="material.yellow-lime.min.css" t="Include" />
+                  <e p="material.yellow-orange.min.css" t="Include" />
+                  <e p="material.yellow-pink.min.css" t="Include" />
+                  <e p="material.yellow-purple.min.css" t="Include" />
+                  <e p="material.yellow-red.min.css" t="Include" />
+                  <e p="material.yellow-teal.min.css" t="Include" />
+                  <e p="mdl-template-android-dot-com.zip" t="Include" />
+                  <e p="mdl-template-article.zip" t="Include" />
+                  <e p="mdl-template-blog.zip" t="Include" />
+                  <e p="mdl-template-dashboard.zip" t="Include" />
+                  <e p="mdl-template-portfolio.zip" t="Include" />
+                  <e p="mdl-template-text-only.zip" t="Include" />
+                  <e p="mdl.zip" t="Include" />
+                  <e p="package.json" t="Include" />
+                  <e p="showcase" t="Include">
+                    <e p="index.html" t="Include" />
+                  </e>
+                  <e p="started" t="Include">
+                    <e p="index.html" t="Include" />
+                  </e>
+                  <e p="styles" t="Include">
+                    <e p="index.html" t="Include" />
+                  </e>
+                  <e p="templates" t="Include">
+                    <e p="android-dot-com" t="Include">
+                      <e p="images" t="Include">
+                        <e p="android-logo-white.png" t="Include" />
+                        <e p="android-logo.png" t="Include" />
+                        <e p="andy.png" t="Include" />
+                        <e p="auto-on.jpg" t="Include" />
+                        <e p="devices.jpg" t="Include" />
+                        <e p="more-from-1.png" t="Include" />
+                        <e p="more-from-2.png" t="Include" />
+                        <e p="more-from-3.png" t="Include" />
+                        <e p="more-from-4.png" t="Include" />
+                        <e p="nexus6-on.jpg" t="Include" />
+                        <e p="nexus9-on.jpg" t="Include" />
+                        <e p="slide01.jpg" t="Include" />
+                        <e p="tv-on.jpg" t="Include" />
+                        <e p="wear-black-on.png" t="Include" />
+                        <e p="wear-silver-on.png" t="Include" />
+                        <e p="wear.png" t="Include" />
+                      </e>
+                      <e p="index.html" t="Include" />
+                      <e p="styles.css" t="Include" />
+                    </e>
+                    <e p="article" t="Include">
+                      <e p="images" t="Include">
+                        <e p="android-desktop.png" t="Include" />
+                        <e p="favicon.png" t="Include" />
+                        <e p="ios-desktop.png" t="Include" />
+                      </e>
+                      <e p="index.html" t="Include" />
+                      <e p="styles.css" t="Include" />
+                    </e>
+                    <e p="blog" t="Include">
+                      <e p="entry.html" t="Include" />
+                      <e p="images" t="Include">
+                        <e p="android-desktop.png" t="Include" />
+                        <e p="avatar.png" t="Include" />
+                        <e p="bg_1024.jpg" t="Include" />
+                        <e p="bg_2048.jpg" t="Include" />
+                        <e p="bg_2880.jpg" t="Include" />
+                        <e p="co1.jpg" t="Include" />
+                        <e p="co2.jpg" t="Include" />
+                        <e p="coffee.jpg" t="Include" />
+                        <e p="favicon.png" t="Include" />
+                        <e p="ios-desktop.png" t="Include" />
+                        <e p="logo.png" t="Include" />
+                        <e p="road.jpg" t="Include" />
+                        <e p="road_big.jpg" t="Include" />
+                        <e p="shopping.jpg" t="Include" />
+                      </e>
+                      <e p="index.html" t="Include" />
+                      <e p="styles.css" t="Include" />
+                    </e>
+                    <e p="dashboard" t="Include">
+                      <e p="images" t="Include">
+                        <e p="android-desktop.png" t="Include" />
+                        <e p="dog.png" t="Include" />
+                        <e p="favicon.png" t="Include" />
+                        <e p="ios-desktop.png" t="Include" />
+                        <e p="user.jpg" t="Include" />
+                      </e>
+                      <e p="index.html" t="Include" />
+                      <e p="styles.css" t="Include" />
+                    </e>
+                    <e p="index.html" t="Include" />
+                    <e p="portfolio" t="Include">
+                      <e p="about.html" t="Include" />
+                      <e p="blog.html" t="Include" />
+                      <e p="contact.html" t="Include" />
+                      <e p="images" t="Include">
+                        <e p="about-header.jpg" t="Include" />
+                        <e p="contact-image.jpg" t="Include" />
+                        <e p="example-blog01.jpg" t="Include" />
+                        <e p="example-blog02.jpg" t="Include" />
+                        <e p="example-blog03.jpg" t="Include" />
+                        <e p="example-blog04.jpg" t="Include" />
+                        <e p="example-blog05.jpg" t="Include" />
+                        <e p="example-blog06.jpg" t="Include" />
+                        <e p="example-blog07.jpg" t="Include" />
+                        <e p="example-work01.jpg" t="Include" />
+                        <e p="example-work02.jpg" t="Include" />
+                        <e p="example-work03.jpg" t="Include" />
+                        <e p="example-work04.jpg" t="Include" />
+                        <e p="example-work05.jpg" t="Include" />
+                        <e p="example-work06.jpg" t="Include" />
+                        <e p="example-work07.jpg" t="Include" />
+                        <e p="example-work08.jpg" t="Include" />
+                        <e p="example-work09.jpg" t="Include" />
+                        <e p="footer-background.png" t="Include" />
+                        <e p="header-bg.jpg" t="Include" />
+                        <e p="logo.png" t="Include" />
+                        <e p="photo-wide.jpg" t="Include" />
+                        <e p="photo.jpg" t="Include" />
+                        <e p="portfolio-example-01.jpg" t="Include" />
+                        <e p="portfolio-example-02.jpg" t="Include" />
+                        <e p="portfolio-example-03.jpg" t="Include" />
+                        <e p="portfolio-example-04.jpg" t="Include" />
+                        <e p="portfolio-example-05.jpg" t="Include" />
+                        <e p="portfolio-example-06.jpg" t="Include" />
+                      </e>
+                      <e p="index.html" t="Include" />
+                      <e p="portfolio-example01.html" t="Include" />
+                      <e p="styles.css" t="Include" />
+                      <e p="Tutorial" t="Include">
+                        <e p="step01-initial-HTML-setup.html" t="Include" />
+                        <e p="step02-MDL-layout-component.html" t="Include" />
+                        <e p="step03-the-grid-component.html" t="Include" />
+                        <e p="step04-customising-the-layout.html" t="Include" />
+                        <e p="step05-individual-pages" t="Include">
+                          <e p="about.html" t="Include" />
+                          <e p="blog.html" t="Include" />
+                          <e p="contact.html" t="Include" />
+                          <e p="index.html" t="Include" />
+                          <e p="portfolio-example01.html" t="Include" />
+                        </e>
+                        <e p="styles.css" t="Include" />
+                      </e>
+                    </e>
+                    <e p="text-only" t="Include">
+                      <e p="images" t="Include">
+                        <e p="android-desktop.png" t="Include" />
+                        <e p="favicon.png" t="Include" />
+                        <e p="ios-desktop.png" t="Include" />
+                      </e>
+                      <e p="index.html" t="Include" />
+                      <e p="styles.css" t="Include" />
+                    </e>
+                  </e>
+                </e>
+                <e p="gulpfile.babel.js" t="Include" />
+                <e p="LICENSE" t="Include" />
+                <e p="material.css" t="Include" />
+                <e p="material.js" t="Include" />
+                <e p="material.min.css" t="Include" />
+                <e p="material.min.css.map" t="Include" />
+                <e p="material.min.js" t="Include" />
+                <e p="material.min.js.map" t="Include" />
+                <e p="package.json" t="Include" />
+                <e p="README.md" t="Include" />
+                <e p="src" t="Include">
+                  <e p="_color-definitions.scss" t="Include" />
+                  <e p="_functions.scss" t="Include" />
+                  <e p="_mixins.scss" t="Include" />
+                  <e p="_variables.scss" t="Include" />
+                  <e p="animation" t="Include">
+                    <e p="_animation.scss" t="Include" />
+                    <e p="demo.css" t="Include" />
+                    <e p="demo.html" t="Include" />
+                    <e p="demo.js" t="Include" />
+                  </e>
+                  <e p="badge" t="Include">
+                    <e p="_badge.scss" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="badge-on-icon-icon-demo.html" t="Include" />
+                      <e p="badge-on-icon-icon.html" t="Include" />
+                      <e p="badge-on-icon-text-demo.html" t="Include" />
+                      <e p="badge-on-icon-text.html" t="Include" />
+                      <e p="badge-on-text-icon-demo.html" t="Include" />
+                      <e p="badge-on-text-icon.html" t="Include" />
+                      <e p="badge-on-text-text-demo.html" t="Include" />
+                      <e p="badge-on-text-text.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="button" t="Include">
+                    <e p="_button.scss" t="Include" />
+                    <e p="button.js" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="fab-colored-ripple.html" t="Include" />
+                      <e p="fab-colored.html" t="Include" />
+                      <e p="fab-disabled.html" t="Include" />
+                      <e p="fab-mini-colored.html" t="Include" />
+                      <e p="fab-mini.html" t="Include" />
+                      <e p="fab-ripple.html" t="Include" />
+                      <e p="fab.html" t="Include" />
+                      <e p="flat-accent.html" t="Include" />
+                      <e p="flat-disabled.html" t="Include" />
+                      <e p="flat-primary.html" t="Include" />
+                      <e p="flat-ripple.html" t="Include" />
+                      <e p="flat.html" t="Include" />
+                      <e p="icon-colored.html" t="Include" />
+                      <e p="icon.html" t="Include" />
+                      <e p="raised-accent.html" t="Include" />
+                      <e p="raised-colored.html" t="Include" />
+                      <e p="raised-disabled.html" t="Include" />
+                      <e p="raised-ripple-accent.html" t="Include" />
+                      <e p="raised-ripple.html" t="Include" />
+                      <e p="raised.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="card" t="Include">
+                    <e p="_card.scss" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="event.html" t="Include" />
+                      <e p="image.html" t="Include" />
+                      <e p="square.html" t="Include" />
+                      <e p="wide.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="checkbox" t="Include">
+                    <e p="_checkbox.scss" t="Include" />
+                    <e p="checkbox.js" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="check-off.html" t="Include" />
+                      <e p="check-on.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="chip" t="Include">
+                    <e p="_chip.scss" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="basic.html" t="Include" />
+                      <e p="button.html" t="Include" />
+                      <e p="contact.html" t="Include" />
+                      <e p="deletable-contact.html" t="Include" />
+                      <e p="deletable.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="data-table" t="Include">
+                    <e p="_data-table.scss" t="Include" />
+                    <e p="data-table.js" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="data-table.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="demos.css" t="Include" />
+                  <e p="dialog" t="Include">
+                    <e p="_dialog.scss" t="Include" />
+                    <e p="README.md" t="Include" />
+                  </e>
+                  <e p="footer" t="Include">
+                    <e p="_mega_footer.scss" t="Include" />
+                    <e p="_mini_footer.scss" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="mega-footer.html" t="Include" />
+                      <e p="mini-footer.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="grid" t="Include">
+                    <e p="_grid.scss" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="codepen-grid.css" t="Include" />
+                      <e p="grid-demo.html" t="Include" />
+                      <e p="grid.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="icon-toggle" t="Include">
+                    <e p="_icon-toggle.scss" t="Include" />
+                    <e p="icon-toggle.js" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="icon-off.html" t="Include" />
+                      <e p="icon-on.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="images" t="Include">
+                    <e p="buffer.svg" t="Include" />
+                    <e p="tick-mask.svg" t="Include" />
+                    <e p="tick.svg" t="Include" />
+                  </e>
+                  <e p="index.html" t="Include" />
+                  <e p="INTRODUCTION.md" t="Include" />
+                  <e p="layout" t="Include">
+                    <e p="_layout.scss" t="Include" />
+                    <e p="layout.js" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="fixed-drawer-demo.html" t="Include" />
+                      <e p="fixed-drawer.html" t="Include" />
+                      <e p="fixed-header-demo.html" t="Include" />
+                      <e p="fixed-header-drawer-demo.html" t="Include" />
+                      <e p="fixed-header-drawer.html" t="Include" />
+                      <e p="fixed-header.html" t="Include" />
+                      <e p="fixed-tabs-demo.html" t="Include" />
+                      <e p="fixed-tabs.html" t="Include" />
+                      <e p="scrollable-tabs-demo.html" t="Include" />
+                      <e p="scrollable-tabs.html" t="Include" />
+                      <e p="scrolling-header-demo.html" t="Include" />
+                      <e p="scrolling-header.html" t="Include" />
+                      <e p="transparent-demo.html" t="Include" />
+                      <e p="transparent.html" t="Include" />
+                      <e p="waterfall-header-demo.html" t="Include" />
+                      <e p="waterfall-header.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="list" t="Include">
+                    <e p="_list.scss" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="action.html" t="Include" />
+                      <e p="icon.html" t="Include" />
+                      <e p="list-control.html" t="Include" />
+                      <e p="list-item.html" t="Include" />
+                      <e p="three-line.html" t="Include" />
+                      <e p="two-line.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="material-design-lite-grid.scss" t="Include" />
+                  <e p="material-design-lite.scss" t="Include" />
+                  <e p="mdlComponentHandler.js" t="Include" />
+                  <e p="menu" t="Include">
+                    <e p="_menu.scss" t="Include" />
+                    <e p="menu.js" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="codepen-lower-buttons.css" t="Include" />
+                      <e p="codepen-top-buttons.css" t="Include" />
+                      <e p="lower-left-demo.html" t="Include" />
+                      <e p="lower-left.html" t="Include" />
+                      <e p="lower-right-demo.html" t="Include" />
+                      <e p="lower-right.html" t="Include" />
+                      <e p="top-left-demo.html" t="Include" />
+                      <e p="top-left.html" t="Include" />
+                      <e p="top-right-demo.html" t="Include" />
+                      <e p="top-right.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="palette" t="Include">
+                    <e p="_palette.scss" t="Include" />
+                    <e p="demo.css" t="Include" />
+                    <e p="demo.html" t="Include" />
+                  </e>
+                  <e p="progress" t="Include">
+                    <e p="_progress.scss" t="Include" />
+                    <e p="progress.js" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="progress-buffering-demo.html" t="Include" />
+                      <e p="progress-buffering.html" t="Include" />
+                      <e p="progress-default-demo.html" t="Include" />
+                      <e p="progress-default.html" t="Include" />
+                      <e p="progress-indeterminate-demo.html" t="Include" />
+                      <e p="progress-indeterminate.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="radio" t="Include">
+                    <e p="_radio.scss" t="Include" />
+                    <e p="radio.js" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="radio-off.html" t="Include" />
+                      <e p="radio-on.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="resets" t="Include">
+                    <e p="_h5bp.scss" t="Include" />
+                    <e p="_mobile.scss" t="Include" />
+                    <e p="_resets.scss" t="Include" />
+                  </e>
+                  <e p="ripple" t="Include">
+                    <e p="_ripple.scss" t="Include" />
+                    <e p="ripple.js" t="Include" />
+                  </e>
+                  <e p="shadow" t="Include">
+                    <e p="_shadow.scss" t="Include" />
+                    <e p="demo.css" t="Include" />
+                    <e p="demo.html" t="Include" />
+                    <e p="README.md" t="Include" />
+                  </e>
+                  <e p="slider" t="Include">
+                    <e p="_slider.scss" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="slider.js" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="demo.html" t="Include" />
+                      <e p="slider-default-demo.html" t="Include" />
+                      <e p="slider-default.html" t="Include" />
+                      <e p="slider-starting-value-demo.html" t="Include" />
+                      <e p="slider-starting-value.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="snackbar" t="Include">
+                    <e p="_snackbar.scss" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snackbar.js" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="snackbar.html" t="Include" />
+                      <e p="toast.html" t="Include" />
+                    </e>
+                  </e>
+                  <e p="spinner" t="Include">
+                    <e p="_spinner.scss" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="spinner-default.html" t="Include" />
+                      <e p="spinner-single-color.html" t="Include" />
+                    </e>
+                    <e p="spinner.js" t="Include" />
+                  </e>
+                  <e p="styleguide.scss" t="Include" />
+                  <e p="switch" t="Include">
+                    <e p="_switch.scss" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="switch-off.html" t="Include" />
+                      <e p="switch-on.html" t="Include" />
+                    </e>
+                    <e p="switch.js" t="Include" />
+                  </e>
+                  <e p="tabs" t="Include">
+                    <e p="_tabs.scss" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="tabs.html" t="Include" />
+                    </e>
+                    <e p="tabs.js" t="Include" />
+                  </e>
+                  <e p="template.scss" t="Include" />
+                  <e p="textfield" t="Include">
+                    <e p="_textfield.scss" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="textfield-expanding-demo.html" t="Include" />
+                      <e p="textfield-expanding.html" t="Include" />
+                      <e p="textfield-floating-numeric-demo.html" t="Include" />
+                      <e p="textfield-floating-numeric.html" t="Include" />
+                      <e p="textfield-floating-text-demo.html" t="Include" />
+                      <e p="textfield-floating-text.html" t="Include" />
+                      <e p="textfield-multi-line-demo.html" t="Include" />
+                      <e p="textfield-multi-line.html" t="Include" />
+                      <e p="textfield-numeric-demo.html" t="Include" />
+                      <e p="textfield-numeric.html" t="Include" />
+                      <e p="textfield-text-demo.html" t="Include" />
+                      <e p="textfield-text.html" t="Include" />
+                    </e>
+                    <e p="textfield.js" t="Include" />
+                  </e>
+                  <e p="third_party" t="Include">
+                    <e p="rAF.js" t="Include" />
+                  </e>
+                  <e p="tooltip" t="Include">
+                    <e p="_tooltip.scss" t="Include" />
+                    <e p="README.md" t="Include" />
+                    <e p="snippets" t="Include">
+                      <e p="tooltip-large.html" t="Include" />
+                      <e p="tooltip-multiline.html" t="Include" />
+                      <e p="tooltip-rich.html" t="Include" />
+                      <e p="tooltip-simple.html" t="Include" />
+                    </e>
+                    <e p="tooltip.js" t="Include" />
+                  </e>
+                  <e p="typography" t="Include">
+                    <e p="_typography.scss" t="Include" />
+                    <e p="demo.css" t="Include" />
+                    <e p="demo.html" t="Include" />
+                    <e p="README.md" t="Include" />
+                  </e>
+                </e>
+                <e p="utils" t="Include">
+                  <e p="uniffe.js" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="SignUpPageStyle.css" t="Include" />
+            <e p="SinglePlayerPageStyle.css" t="Include" />
+            <e p="style.css" t="Include" />
           </e>
           <e p="favicon.ico" t="Include" />
           <e p="js" t="Include">
