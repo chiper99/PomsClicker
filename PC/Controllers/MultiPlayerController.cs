@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace PC.Controllers
@@ -5,6 +6,7 @@ namespace PC.Controllers
     public class MultiPlayerController : Controller
     {
         // GET
+        [Authorize]
         [Route("{controller}/")]
         public IActionResult MultiPlayer()
         {
