@@ -1,25 +1,25 @@
-@page
-@model PC.Views.Register.Register
+@model PC.Models.RegisterUserModel
 
 <div id="SignUpPage">
     <h6 id="SignUpText">Sign Up</h6>
+    <form method="post" asp-controller="Register" asp-action="Register">
+        <div id="NameTextBox" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="sample3" asp-for="name">
+            <label class="mdl-textfield__label" for="sample3">Name</label>
+        </div>
 
-    <div id="NameTextBox" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="text" id="sample3">
-        <label class="mdl-textfield__label" for="sample3">Name</label>
-    </div>
+        <div id="LoginTextBox" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="sample3" asp-for="email">
+            <label class="mdl-textfield__label" for="sample3">Email</label>
+        </div>
 
-    <div id="LoginTextBox" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="text" id="sample3">
-        <label class="mdl-textfield__label" for="sample3">Email</label>
-    </div>
+        <div id="PasswordTextBox" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="sample3" asp-for="password">
+            <label class="mdl-textfield__label" for="sample3">Password</label>
+        </div>
 
-    <div id="PasswordTextBox" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="text" id="sample3">
-        <label class="mdl-textfield__label" for="sample3">Password</label>
-    </div>
-
-    <button id="matbtn3" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" asp-controller="Login" asp-action="Login">
-        SIGN UP
-    </button>
+        <button id="matbtn3" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" type ="submit">
+            SIGN UP
+        </button>
+    </form>
 </div>
