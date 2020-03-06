@@ -32,7 +32,7 @@ namespace PC.Controllers
 
             if (result.Succeeded)
             {
-                await _signInManager.SignInAsync(User, false); 
+                await _signInManager.SignInAsync(User, false);
                 return RedirectToAction("Index", "Home");
             }
             else
@@ -43,6 +43,6 @@ namespace PC.Controllers
                 }
             }
             return BadRequest();
-        }
+        }        
     }
 }

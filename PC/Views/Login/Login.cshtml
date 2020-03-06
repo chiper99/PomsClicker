@@ -1,29 +1,31 @@
-@page
-@model PC.Views.Login.Login
+@model PC.Models.RegisterUserModel
 
 <body>
-    <div id="LoginPage" >
+    <div id="LoginPage">
         <h6 id="LoginText">Login</h6>
-    
-        <div id="LoginTextBox" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-            <input class="mdl-textfield__input" type="text" id="sample3">
-            <label class="mdl-textfield__label" for="sample3">Email</label>
-        </div>
 
-        <div id="PasswordTextBox" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                <input class="mdl-textfield__input" type="text" id="sample3">
+        <form method="post" asp-controller="Login" asp-action="Login">
+
+            <div id="LoginTextBox" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input asp-for="email" class="mdl-textfield__input" type="text" id="sample3">
+                <label class="mdl-textfield__label" for="sample3">Email</label>
+            </div>
+
+            <div id="PasswordTextBox" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input asp-for="password" class="mdl-textfield__input" type="password" id="sample3">
                 <label class="mdl-textfield__label" for="sample3">Password</label>
-        </div>
+            </div>
 
-        <button id="matbtn3" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick='location.href="ChooseModePage.html"'>
+            <button type="submit" id="matbtn3" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
                 SIGN IN
-        </button>
+            </button>
 
-        <h6 id="QuestionText">Don't have an account yet?</h6>
-        <a asp-controller="Register" asp-action="Register">    
-        <button id="SignUpBtn" class="mdl-button mdl-js-button" onclick='location.href="SignUpPage.html"'>
-            Sign Up
-        </button>
+            <h6 id="QuestionText">Don't have an account yet?</h6>
+        </form>
+        <a asp-controller="Register" asp-action="Register">
+            <button id="SignUpBtn" class="mdl-button mdl-js-button">
+                Sign Up
+            </button>
         </a>
     </div>
 </body>
