@@ -1,0 +1,154 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+#btbt
+{
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    color:black;  
+    font-size: 40px;
+}
+
+.menu
+{
+    top: 0;
+    display: flex;
+    height: 80px;
+    background-color: transparent;
+    min-width: 100%;
+    z-index: 600;
+    position: fixed;
+}
+
+.headtext
+{
+    color: #569981;
+    font-size: 30pt;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 550;
+    margin: 0;
+}
+
+.howmuchcontainer
+{
+    position: relative;
+    max-width: 100%;
+    margin-top: 80px;
+    height: 80px;
+}
+
+.howmuch
+{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%,-50%);
+    color: #569981;
+    font-size: 30pt;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 550;
+    margin: 0;
+}
+
+.secondscontainer
+{
+    position: relative;
+    max-width: 100%;
+    height: 80px;
+}
+
+.seconds
+{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%,-50%);
+    color: #569981;
+    font-size: 30pt;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 550;
+    margin: 0;
+}
+
+.buttoncontainer
+{
+    display: flex;
+    flex-direction: row;
+    margin-top:50%;
+}
+
+.twoplayers
+{
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.secondcolor
+{
+    background-color: #569981 !important;
+}
+
+.threeplayers
+{
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.thirdcolor
+{
+    background-color: #93C971 !important;
+}
+
+.fourplayers
+{
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.fourthcolor
+{
+    background-color: #569981 !important;
+}
+
+.fiveplayers
+{
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.fifthcolor
+{
+    background-color: #93C971 !important;
+}
+
+@media (min-width:375px) and (max-width:562px)
+{
+    .headtext
+    {
+        font-size: 20pt;
+    }
+    .howmuch
+    {
+        font-size: 20pt;
+    }
+}
+
+@media (min-width:50px) and (max-width:374px)
+{
+    .headtext
+    {
+        font-size: 14pt;
+    }
+    .howmuch
+    {
+        font-size: 14pt;
+    }
+}

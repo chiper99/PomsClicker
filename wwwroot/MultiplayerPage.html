@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LVEE</title>
+        <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <link rel="stylesheet" type="text/css" href="MultiplayerPageStyle.css">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+        <link rel="stylesheet" href="node_modules/getmdl-select/getmdl-select.min.css">
+        <script defer src="node_modules/getmdl-select/getmdl-select.min.js"></script>
+        <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" type="text/css" href="mdl_style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body style="overflow: hidden; display: flex; flex-direction: column; position: relative; height: 100%;">
+        <header class="menu">
+            <button onclick="openNav()" style=" z-index:800; background-color: transparent;  border-color: transparent; margin-left:2%; top:50%; cursor: pointer;outline: none;">
+                <a class="materialcolor">
+                    <i class="material-icons" id="btbt">
+                        menu
+                    </i>
+                </a>
+            </button>
+            <div style="position: absolute; top:50%; left: 50%; transform: translate(-50%,-50%);">
+                <h1 class="headtext">Multiplayer</h1>
+            </div>
+        </header>
+
+        <div class="playernamecontainer">
+            <p class="playername">Player 1</p>
+        </div>
+
+        <div class="secondscontainer">
+            <h1 class="seconds" id="seconds"></h1>
+        </div>
+        
+        <script>
+            var timeInterval = 60;
+            var count = 0;
+            var x = function(){
+                document.getElementById("seconds").innerHTML = (timeInterval - count);
+                count++;
+                if(count > timeInterval)
+                {
+                    clearInterval(interval);
+                    return;
+                }
+            };
+            var interval = setInterval(x,1000);
+        </script>
+
+        <div class="scorecontainer">
+            <h1 class="score">00</h1>
+        </div>
+
+        <div class="clickablezone">
+            <button style="width: 100%; height: 100%; background: transparent; border: none; outline: none;">
+            <img id="ApplePic" src='Assets/Apple.png' />
+            </button>
+        </div>
+    </body>
+    
+
+</html>
