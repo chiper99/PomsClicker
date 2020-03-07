@@ -30,6 +30,11 @@
             </div>
         </header>
 
+        <div class="centralmenu" id="centralmenu" style="display: none;">
+            <h1 class="continueMultiPage" onclick="closeNav()">Continue</h1>
+            <h1 class="saveMultiPage" onclick='location.href="ChooseModePage.html"'>Save & Exit</h1>
+          </div>
+
         <div class="playernamecontainer">
             <p class="playername">Player 1</p>
         </div>
@@ -37,6 +42,17 @@
         <div class="secondscontainer">
             <h1 class="seconds" id="seconds"></h1>
         </div>
+
+        <script>
+            function openNav()
+            {
+              document.getElementById('centralmenu').style.display = "block";
+            }
+            function closeNav()
+            {
+              document.getElementById('centralmenu').style.display = "none";
+            }
+        </script>
         
         <script>
             var timeInterval = 60;

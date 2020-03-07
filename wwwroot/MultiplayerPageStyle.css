@@ -26,6 +26,38 @@ body {
     position: fixed;
 }
 
+.centralmenu
+{
+    position: fixed;
+    padding-top:90px;
+    z-index: 600;
+    background-color: white;
+    margin-top: 77px;
+    width: 100%;
+    height: 60%;
+}
+
+.continueMultiPage
+{
+    text-align: center;
+    color: #569981;
+    font-size: 25pt;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 550;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.saveMultiPage
+{
+    text-align: center;
+    color: #569981;
+    font-size: 25pt;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 550;
+    margin: 0;
+}
+
 .headtext
 {
     color: #569981;
