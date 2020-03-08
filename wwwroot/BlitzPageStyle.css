@@ -26,18 +26,28 @@ body {
     position: fixed;
 }
 
+.clickabletable .td
+{
+    border: 1px solid;
+}
+
+.clickabletable .tr
+{
+    border: 1px solid;
+}
+
 .centralmenu
 {
     position: fixed;
     padding-top:90px;
     z-index: 600;
     background-color: white;
-    margin-top: 77px;
+    margin-top: 72px;
     width: 100%;
     height: 60%;
 }
 
-.continueMultiPage
+.continueBlitzPage
 {
     text-align: center;
     color: #569981;
@@ -48,7 +58,7 @@ body {
     margin-bottom: 40px;
 }
 
-.saveMultiPage
+.saveBlitzPage
 {
     text-align: center;
     color: #569981;
@@ -90,12 +100,13 @@ body {
 
 .secondscontainer
 {
+    margin-top: 80px;
     position: relative;
     max-width: 100%;
     height: 80px;
 }
 
-.seconds
+.secondsBlitz
 {
     position: absolute;
     left: 50%;
@@ -110,6 +121,7 @@ body {
 
 .scorecontainer
 {
+    
     position: relative;
     max-width: 100%;
     height: 80px;
@@ -145,7 +157,6 @@ body {
     flex-grow:1;
 }
 
-
 .erroralert
 {
     position: fixed;
@@ -155,6 +166,17 @@ body {
     margin-top: 72px;
     width: 100%;
     height: 60%;
+}
+
+.losetext
+{
+    text-align: center;
+    color: #569981;
+    font-size: 25pt;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 550;
+    margin: 0;
+    margin-bottom: 40px;
 }
 
 .resulttext
@@ -215,5 +237,19 @@ body {
     .playername
     {
         font-size: 14pt;
+    }
+}
+
+@media (min-width:394px)
+{
+    .tomatopic
+    {
+        width: 50% !important;
+        height: 100% !important;
+    }
+    .applepic
+    {
+        width: 50% !important;
+        height: 100% !important;
     }
 }
