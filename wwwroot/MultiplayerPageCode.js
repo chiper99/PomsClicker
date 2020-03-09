@@ -37,7 +37,7 @@ function closeNav()
     document.getElementById('centralmenu').style.display = "none";
 }
 
-var timeInterval = 10;
+var timeInterval = 60;
 var count = 0;
 var x = function(){
     document.getElementById("seconds").innerHTML = (timeInterval - count);
@@ -52,7 +52,7 @@ var x = function(){
 
 function setTime()
 {
-    var timeInterval = 10;
+    var timeInterval = 60;
     var count = 0;
     var x = function(){
         document.getElementById("seconds").innerHTML = (timeInterval - count);
