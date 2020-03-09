@@ -13,7 +13,8 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" type="text/css" href="mdl_style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        
+        <script src="MultiplayerPageCode.js"></script>
+
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body style="overflow: hidden; display: flex; flex-direction: column; position: relative; height: 100%;">
@@ -33,70 +34,33 @@
         <div class="centralmenu" id="centralmenu" style="display: none;">
             <h1 class="continueMultiPage" onclick="closeNav()">Continue</h1>
             <h1 class="saveMultiPage" onclick='location.href="ChooseModePage.html"'>Save & Exit</h1>
-          </div>
-
-          <div class="erroralert" id="erroralert" style="display: none;">
-            <h1 class="losetext" id="losetext" style="display: none;">You Lose!</h1> 
-            <h1 class="resulttext">Result</h1>
-            <h1 class="scoretext" id="scoretext"></h1>
-            <button id="matbtnOK" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick='location.href="ChooseModePage.html"'>
-                OK
-            </button>
         </div>
 
         <div class="playernamecontainer">
-            <p class="playername">Player 1</p>
+            <div style="display: flex; flex-direction: row; width: 100%; justify-content: center;">
+                <p class="playername" id="playername">Player </p>
+                <p id="namenumber">1</p>
+            </div>
         </div>
 
         <div class="secondscontainer">
             <h1 class="seconds" id="seconds"></h1>
         </div>
 
-        <script>
-            function openNav()
-            {
-              document.getElementById('centralmenu').style.display = "block";
-            }
-            function closeNav()
-            {
-              document.getElementById('centralmenu').style.display = "none";
-            }
-        </script>
-        
-        <script>
-            var timeInterval = 60;
-            var count = 0;
-            var x = function(){
-                document.getElementById("seconds").innerHTML = (timeInterval - count);
-                count++;
-                if(count > timeInterval)
-                {
-                    ErrorAlert();
-                    clearInterval(interval);
-                    return;
-                }
-            };
-            var interval = setInterval(x,1000);
-
-            function ErrorAlert()
-            {
-                document.getElementById("erroralert").style.display = "block";
-                time = 50000;
-                document.getElementById("scoretext").innerHTML = document.getElementById("score").innerHTML;
-            };
-
-            function onAppleClick()
-            {
-                var value = parseInt(document.getElementById('score').innerHTML);
-                value = isNaN(value) ? 0 : value;
-                value++;
-                document.getElementById("score").innerHTML = value;
-            }
-
-        </script>
-
         <div class="scorecontainer">
             <h1 class="score" id="score"></h1>
+        </div>
+
+        <div class="nextplayercontainer" id="nextplayercontainer" style="display: none;">
+            <h1 class="done" id="done">Done. Pass the phone to the next player!</h1>
+            <button id="matbtnnext" value="0" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="onOkClicked()">
+                OK
+            </button>
+        </div>
+
+        <div class="resultall" id="resultall" style="display: none;">
+            <h1 class="res" id="res">Result all</h1>
+            <div id="resultscoreall"></div>
         </div>
 
         <div class="clickablezone" onclick="onAppleClick()">

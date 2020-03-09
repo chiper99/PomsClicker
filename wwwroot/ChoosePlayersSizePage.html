@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" type="text/css" href="mdl_style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="ChoosePlayersSizePageCode.js"></script>
         
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
@@ -28,16 +29,16 @@
         </div>
 
         <div class="buttoncontainer">
-            <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored secondcolor" onclick='location.href="MultiplayerPage.html"'>
+            <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored secondcolor" onclick="goToMultiplayer();howMuch(2)">
                 <h1 class="twoplayers">2</h1>
             </button>
-            <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored thirdcolor" onclick='location.href="MultiplayerPage.html"'>
+            <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored thirdcolor" onclick='goToMultiplayer(); howMuch(3)'>
                 <h1 class="threeplayers">3</h1>
             </button>
-            <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored fourthcolor" onclick='location.href="MultiplayerPage.html"'>
+            <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored fourthcolor" onclick='goToMultiplayer(); howMuch(4)'>
                 <h1 class="fourplayers">4</h1>
             </button>
-            <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored fifthcolor" onclick='location.href="MultiplayerPage.html"'>
+            <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored fifthcolor" onclick='goToMultiplayer(); howMuch(5)'>
                 <h1 class="fiveplayers">5</h1>
             </button>
         </div>
