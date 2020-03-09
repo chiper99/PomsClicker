@@ -3,9 +3,7 @@ var a = sessionStorage.getItem("howmuch");
 function onOkClicked()
 {
     document.getElementById("nextplayercontainer").style.display = "none";
-    timeInterval = 2;
-    count = 0;
-    setInterval(x,1000);
+    setTime();
 
     var value = parseInt(document.getElementById("matbtnnext").value);
     value = isNaN(value) ? 0 : value;
@@ -39,7 +37,7 @@ function closeNav()
     document.getElementById('centralmenu').style.display = "none";
 }
 
-var timeInterval = 2;
+var timeInterval = 10;
 var count = 0;
 var x = function(){
     document.getElementById("seconds").innerHTML = (timeInterval - count);
@@ -51,6 +49,23 @@ var x = function(){
         return;
     }
 };
+
+function setTime()
+{
+    var timeInterval = 10;
+    var count = 0;
+    var x = function(){
+        document.getElementById("seconds").innerHTML = (timeInterval - count);
+        count++;
+        if(count > timeInterval)
+        {
+            showNextPlayerDiv();
+            clearInterval(interval);
+            return;
+        }
+    };
+    var interval = setInterval(x,1000);
+}
 
 function showNextPlayerDiv()
 {
