@@ -26,37 +26,6 @@ body {
     position: fixed;
 }
 
-.centralmenu
-{
-    padding-top:90px;
-    z-index: 600;
-    background-color: white;
-    margin-top: 80px;
-    width: 100%;
-    height: 60%;
-}
-
-.continueSinglePage
-{
-    text-align: center;
-    color: #569981;
-    font-size: 25pt;
-    font-family: 'Orbitron', sans-serif;
-    font-weight: 550;
-    margin: 0;
-    margin-bottom: 40px;
-}
-
-.saveSinglePage
-{
-    text-align: center;
-    color: #569981;
-    font-size: 25pt;
-    font-family: 'Orbitron', sans-serif;
-    font-weight: 550;
-    margin: 0;
-}
-
 .headtext
 {
     color: #569981;
@@ -66,18 +35,21 @@ body {
     margin: 0;
 }
 
-.scorecontainer
+.howmuchcontainer
 {
+    position: relative;
     max-width: 100%;
     margin-top: 80px;
     height: 80px;
 }
 
-.score
+.howmuch
 {
+    text-align: center;
+    width: 100%;
     position: absolute;
     left: 50%;
-    top: 15%;
+    top: 10%;
     transform: translate(-50%,-50%);
     color: #569981;
     font-size: 30pt;
@@ -86,20 +58,75 @@ body {
     margin: 0;
 }
 
-#ApplePic
+.secondscontainer
 {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top:38%;
-    left:50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    max-width: 100%;
+    height: 80px;
 }
 
-.clickablezone
+.seconds
 {
-    width: 100%;
-    flex-grow:1;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%,-50%);
+    color: #569981;
+    font-size: 30pt;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 550;
+    margin: 0;
+}
+
+.buttoncontainer
+{
+    display: flex;
+    flex-direction: row;
+    margin-top:50%;
+}
+
+.twoplayers
+{
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.secondcolor
+{
+    background-color: #569981 !important;
+}
+
+.threeplayers
+{
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.thirdcolor
+{
+    background-color: #93C971 !important;
+}
+
+.fourplayers
+{
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.fourthcolor
+{
+    background-color: #569981 !important;
+}
+
+.fiveplayers
+{
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.fifthcolor
+{
+    background-color: #93C971 !important;
 }
 
 @media (min-width:375px) and (max-width:562px)
@@ -108,11 +135,19 @@ body {
     {
         font-size: 20pt;
     }
+    .howmuch
+    {
+        font-size: 20pt;
+    }
 }
 
 @media (min-width:50px) and (max-width:374px)
 {
     .headtext
+    {
+        font-size: 14pt;
+    }
+    .howmuch
     {
         font-size: 14pt;
     }

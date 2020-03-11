@@ -6,14 +6,79 @@
 }
 
 <!DOCTYPE html>
-
 <html>
 <head>
-    <title></title>
+    <title>LVEE</title>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link rel="stylesheet" type="text/css" href="~/css/MultiplayerPageStyle.css">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="node_modules/getmdl-select/getmdl-select.min.css">
+    <script defer src="node_modules/getmdl-select/getmdl-select.min.js"></script>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" type="text/css" href="~/css/mdl_style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="~/js/MultiplayerPageCode.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
-<div>
-    
-</div>
+<body style="overflow: hidden; display: flex; flex-direction: column; position: relative; height: 100%;">
+    <header class="menu">
+        <button onclick="openNav()" style=" z-index:800; background-color: transparent;  border-color: transparent; margin-left:2%; top:50%; cursor: pointer;outline: none;">
+            <a class="materialcolor">
+                <i class="material-icons" id="btbt">
+                    menu
+                </i>
+            </a>
+        </button>
+        <div style="position: absolute; top:50%; left: 50%; transform: translate(-50%,-50%);">
+            <h1 class="headtext">Multiplayer</h1>
+        </div>
+    </header>
+
+    <div class="centralmenu" id="centralmenu" style="display: none;">
+        <h1 class="continueMultiPage" onclick="closeNav()">Continue</h1>
+        <h1 class="saveMultiPage" onclick='location.href="ChooseModePage.html"'>Save & Exit</h1>
+    </div>
+
+    <div class="playernamecontainer">
+        <div style="display: flex; flex-direction: row; width: 100%; justify-content: center;">
+            <p class="playername" id="playername">Player </p>
+            <p id="namenumber">1</p>
+        </div>
+    </div>
+
+    <div class="secondscontainer">
+        <h1 class="seconds" id="seconds"></h1>
+    </div>
+
+    <div class="scorecontainer">
+        <h1 class="score" id="score"></h1>
+    </div>
+
+    <div class="nextplayercontainer" id="nextplayercontainer" style="display: none;">
+        <h1 class="done" id="done">Done. Pass the phone to the next player!</h1>
+        <button id="matbtnnext" value="0" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="onOkClicked()">
+            OK
+        </button>
+    </div>
+
+    <div class="resultall" id="resultall" style="display: none;">
+        <h1 class="res" id="res">Result all</h1>
+        <div id="resultscoreall"></div>
+        <button id="matbtnback" value="0" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="location.href='ChooseModePage.html'">
+            OK
+        </button>
+    </div>
+
+    <div class="clickablezone" onclick="onAppleClick()">
+        <button style="width: 100%; height: 100%; background: transparent; border: none; outline: none;">
+            <img id="ApplePic" src='~/Assets/Apple.png' />
+        </button>
+    </div>
 </body>
+
+
 </html>

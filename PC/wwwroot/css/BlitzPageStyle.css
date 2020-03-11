@@ -1,0 +1,255 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+#btbt
+{
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    color:black;  
+    font-size: 40px;
+}
+
+.menu
+{
+    top: 0;
+    display: flex;
+    height: 80px;
+    background-color: transparent;
+    min-width: 100%;
+    z-index: 600;
+    position: fixed;
+}
+
+.clickabletable .td
+{
+    border: 1px solid;
+}
+
+.clickabletable .tr
+{
+    border: 1px solid;
+}
+
+.centralmenu
+{
+    position: fixed;
+    padding-top:90px;
+    z-index: 600;
+    background-color: white;
+    margin-top: 72px;
+    width: 100%;
+    height: 60%;
+}
+
+.continueBlitzPage
+{
+    text-align: center;
+    color: #569981;
+    font-size: 25pt;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 550;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.saveBlitzPage
+{
+    text-align: center;
+    color: #569981;
+    font-size: 25pt;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 550;
+    margin: 0;
+}
+
+.headtext
+{
+    color: #569981;
+    font-size: 30pt;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 550;
+    margin: 0;
+}
+
+.playernamecontainer
+{
+    position: relative;
+    max-width: 100%;
+    margin-top: 80px;
+    height: 80px;
+}
+
+.playername
+{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%,-50%);
+    color: #569981;
+    font-size: 30pt;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 550;
+    margin: 0;
+}
+
+.secondscontainer
+{
+    margin-top: 80px;
+    position: relative;
+    max-width: 100%;
+    height: 80px;
+}
+
+.secondsBlitz
+{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%,-50%);
+    color: #569981;
+    font-size: 30pt;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 550;
+    margin: 0;
+}
+
+.scorecontainer
+{
+    
+    position: relative;
+    max-width: 100%;
+    height: 80px;
+}
+
+.score
+{
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%,-50%);
+    color: #569981;
+    font-size: 30pt;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 550;
+    margin: 0;
+}
+
+#ApplePic
+{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.clickablezone
+{
+    position: relative;
+    width: 100%;
+    flex-grow:1;
+}
+
+.erroralert
+{
+    position: fixed;
+    padding-top:90px;
+    z-index: 600;
+    background-color: white;
+    margin-top: 72px;
+    width: 100%;
+    height: 60%;
+}
+
+.losetext
+{
+    text-align: center;
+    color: #569981;
+    font-size: 25pt;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 550;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.resulttext
+{
+    text-align: center;
+    color: #569981;
+    font-size: 25pt;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 550;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.scoretext
+{
+    text-align: center;
+    color: #569981;
+    font-size: 25pt;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 550;
+    margin: 0;
+}
+
+#matbtnOK {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 8px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 300px;
+    height: 70px;
+    transform: translate(-50%, -50%);
+    background-color: #569981;
+    transition: 0.3s;
+    letter-spacing: 2px;
+    margin-top: 70px;
+}
+
+@media (min-width:375px) and (max-width:562px)
+{
+    .headtext
+    {
+        font-size: 20pt;
+    }
+    .playername
+    {
+        font-size: 20pt;
+    }
+}
+
+@media (min-width:50px) and (max-width:374px)
+{
+    .headtext
+    {
+        font-size: 14pt;
+    }
+    .playername
+    {
+        font-size: 14pt;
+    }
+}
+
+@media (min-width:394px)
+{
+    .tomatopic
+    {
+        width: 50% !important;
+        height: 100% !important;
+    }
+    .applepic
+    {
+        width: 50% !important;
+        height: 100% !important;
+    }
+}

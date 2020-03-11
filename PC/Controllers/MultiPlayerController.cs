@@ -12,5 +12,11 @@ namespace PC.Controllers
         {
             return View();
         }
+
+        public IActionResult ChoosePlayers()
+        {
+
+            return View();
+        }
     }
 }
