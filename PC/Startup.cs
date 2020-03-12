@@ -12,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using PC.Auth;
+using PC.DataLayer;
 
 namespace PC
 {
@@ -36,6 +37,10 @@ namespace PC
 
             services.AddDbContext<ApplicationContext>(options =>
                options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddDbContext<PcDbContext>(options =>
+               options.UseSqlite(Configuration.GetConnectionString("ScoreDb")));
+
 
             services.AddIdentity<User, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationContext>();

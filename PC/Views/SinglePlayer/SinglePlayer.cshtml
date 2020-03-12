@@ -1,5 +1,4 @@
-@page
-@model PC.Views.SingleiPlayer.SinglePlayer
+@model PC.Models.SinglePlayerViewModel
 
 <body style="overflow: hidden; display: flex; flex-direction: column; position: relative; height: 100%;">
         <header class="menu">
@@ -16,7 +15,7 @@
         </header>
 
         <div class="scorecontainer">
-            <h1 class="score" id="scoreCounter">00</h1>
+            <h1 class="score" id="scoreCounter">@Model.Score</h1>
         </div>
 
         <div class="clickablezone" id="clickApple">
@@ -37,18 +36,18 @@
                 <tbody>
                   <tr id="EvaElement">
                     <td class="mdl-data-table__cell--non-numeric" style="width: 30%;  text-align: center;">Eva</td>
-                    <td style="width: 30%;  text-align: center;" id="EvaElementCounter">00</td>
-                    <td style="width: 30%;  text-align: center;" id="EvaCostElement">10</td>
+                    <td style="width: 30%;  text-align: center;" id="EvaElementCounter">@Model.EvaCount</td>
+                    <td style="width: 30%;  text-align: center;" id="EvaCostElement">@Model.EvaCost</td>
                   </tr>
                   <tr id="NewtonElement">
                     <td class="mdl-data-table__cell--non-numeric" style="width: 30%;  text-align: center;">Newton</td>
-                    <td style="width: 30%;  text-align: center;" id="NewtonElementCounter">00</td>
-                    <td style="width: 30%;  text-align: center;" id="NewtonCostElement">50</td>
+                    <td style="width: 30%;  text-align: center;" id="NewtonElementCounter">@Model.NewtonCount</td>
+                    <td style="width: 30%;  text-align: center;" id="NewtonCostElement">@Model.NewtonCost</td>
                   </tr>
                   <tr id="JobsElement">
                     <td class="mdl-data-table__cell--non-numeric" style="width: 30%;  text-align: center;">Jobs</td>
-                    <td style="width: 30%;  text-align: center;" id="JobsElementCounter">00</td>
-                    <td style="width: 30%;  text-align: center;"id="JobsCostElement">100</td>
+                    <td style="width: 30%;  text-align: center;" id="JobsElementCounter">@Model.JobsCount</td>
+                    <td style="width: 30%;  text-align: center;" id="JobsCostElement">@Model.JobsCost</td>
                   </tr>
                 </tbody>
               </table>

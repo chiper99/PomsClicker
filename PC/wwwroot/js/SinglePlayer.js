@@ -64,7 +64,7 @@ window.addEventListener("load", function () {
     });
 
     function tickHandler(){
-        score = score + EvaCount * 1 + NewtonCount * 5 + JobsCount * 10;
+        score = parseInt(score)  + parseInt(EvaCount) * 1 + parseInt(NewtonCount) * 5 + parseInt(JobsCount) * 10;
         scoreCounterElement.innerHTML = score;
     } 
 
