@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using PC.Models;
 
 namespace PC.Controllers
 {
@@ -11,6 +12,13 @@ namespace PC.Controllers
         public IActionResult SinglePlayer()
         {
             return View();
+        }
+
+        [Route("{controller}/{action}")]
+        [HttpPost]
+        public void postData([FromForm] userSaveData data)
+        {
+
         }
     }
 }

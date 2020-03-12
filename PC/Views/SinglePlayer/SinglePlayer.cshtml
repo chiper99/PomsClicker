@@ -16,12 +16,12 @@
         </header>
 
         <div class="scorecontainer">
-            <h1 class="score">00</h1>
+            <h1 class="score" id="scoreCounter">00</h1>
         </div>
 
-        <div class="clickablezone">
+        <div class="clickablezone" id="clickApple">
             <button style="width: 100%; height: 100%; background: transparent; border: none; outline: none;">
-            <img id="ApplePic" src='Assets/Apple.png' />
+            <img id="ApplePic" src='~/Assets/Apple.png' />
             </button>
         </div>
 
@@ -35,20 +35,20 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
+                  <tr id="EvaElement">
                     <td class="mdl-data-table__cell--non-numeric" style="width: 30%;  text-align: center;">Eva</td>
-                    <td style="width: 30%;  text-align: center;">00</td>
-                    <td style="width: 30%;  text-align: center;">10</td>
+                    <td style="width: 30%;  text-align: center;" id="EvaElementCounter">00</td>
+                    <td style="width: 30%;  text-align: center;" id="EvaCostElement">10</td>
                   </tr>
-                  <tr>
+                  <tr id="NewtonElement">
                     <td class="mdl-data-table__cell--non-numeric" style="width: 30%;  text-align: center;">Newton</td>
-                    <td style="width: 30%;  text-align: center;">00</td>
-                    <td style="width: 30%;  text-align: center;">50</td>
+                    <td style="width: 30%;  text-align: center;" id="NewtonElementCounter">00</td>
+                    <td style="width: 30%;  text-align: center;" id="NewtonCostElement">50</td>
                   </tr>
-                  <tr>
+                  <tr id="JobsElement">
                     <td class="mdl-data-table__cell--non-numeric" style="width: 30%;  text-align: center;">Jobs</td>
-                    <td style="width: 30%;  text-align: center;">00</td>
-                    <td style="width: 30%;  text-align: center;">100</td>
+                    <td style="width: 30%;  text-align: center;" id="JobsElementCounter">00</td>
+                    <td style="width: 30%;  text-align: center;"id="JobsCostElement">100</td>
                   </tr>
                 </tbody>
               </table>
