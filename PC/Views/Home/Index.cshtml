@@ -1,10 +1,8 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@model HomeViewModel;
 
 <body>
     <div id="ChooseModePage" >
-        <h6 id="HelloUsername">Hello, [username] !</h6>
+        <h6 id="HelloUsername">Hello, @Model.UserName !</h6>
 
         <h6 id="ChooseMode">Choose your mode please:</h6>
 
@@ -15,7 +13,6 @@
         </a>
         <h6 id="Multiplayer">Multiplayer</h6>
         
-        <!-- TODO: Сделать что бы весь див в котором кнопки был кликабельным-->
         <a asp-controller="MultiPlayer" asp-action="ChoosePlayers">
         <div  id="multidiv">
             <img id="AppleMulti" src='Assets/AppleMulti-07.jpg'/>

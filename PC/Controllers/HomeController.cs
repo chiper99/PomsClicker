@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -14,7 +15,11 @@ namespace PC.Controllers
         [Authorize]
         public IActionResult Index()
         {
-            return View();
+            var model = new HomeViewModel()
+            {
+                UserName = User.FindFirstValue(ClaimTypes.Name)
+            };
+            return View(model);
         }
         
         
