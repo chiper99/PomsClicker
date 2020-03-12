@@ -33,7 +33,7 @@ body
     transform: translate(-50%, -50%);   
 }
 
-#LoginTextBox
+#LoginSignUpTextBox
 {
     position: absolute;
     top: 50%;
@@ -42,7 +42,7 @@ body
 }
 
 
-#PasswordTextBox
+#PasswordSignUpTextBox
 {
     position: absolute;
     top: 60%;
@@ -60,7 +60,7 @@ body
     color: #569981 !important;
 }
 
-#matbtn3 {
+#matbtn4 {
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
     border-radius: 8px;

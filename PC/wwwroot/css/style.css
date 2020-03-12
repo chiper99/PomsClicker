@@ -16,7 +16,7 @@ body
 {
     color: #569981;
     position: absolute;
-    top: 15%;
+    top: 12%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 50pt;
@@ -27,17 +27,17 @@ body
 #LoginTextBox
 {
     position: absolute;
-    top: 40%;
+    top: 25% !important;
     left: 50%;
-    transform: translate(-50%, -50%);   
+    transform: translateX(-50%) !important;   
 }
 
 #PasswordTextBox
 {
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
-    transform: translate(-50%, -50%);   
+    transform: translateX(-50%);   
 }
 
 .mdl-textfield__label:after {
@@ -55,11 +55,11 @@ body
     font-family: Montserrat;
     border-radius: 8px;
     position: absolute;
-    top: 65%;
+    top: 50%;
     left: 50%;
     width: 300px;
     height: 70px;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     background-color: #569981;
     transition: 0.3s;
     letter-spacing: 2px;
@@ -69,10 +69,10 @@ body
 {
     color: #777c7a;
     position: absolute;
-    top: 72%;
+    top: 60%;
     float: left;
     margin-left: 95px;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     width: 190px;
     font-size: 13pt;
     font-family: 'Montserrat', sans-serif;
@@ -84,12 +84,12 @@ body
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     position: absolute;
-    top: 74%;
+    top: 63%;
     float: right;
     margin-left: 87px;
     width: 125px;
     height: 30px;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     color: #569981;
     transition: 0.3s;
     letter-spacing: 2px;

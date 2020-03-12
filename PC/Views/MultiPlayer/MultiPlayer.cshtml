@@ -40,7 +40,9 @@
 
     <div class="centralmenu" id="centralmenu" style="display: none;">
         <h1 class="continueMultiPage" onclick="closeNav()">Continue</h1>
-        <h1 class="saveMultiPage" onclick='location.href="ChooseModePage.html"'>Save & Exit</h1>
+        <a style="color:unset !important; text-decoration:none !important" asp-controller="Home" asp-action="Index">
+            <h1 class="saveMultiPage">Save & Exit</h1>
+        </a>
     </div>
 
     <div class="playernamecontainer">
@@ -68,9 +70,11 @@
     <div class="resultall" id="resultall" style="display: none;">
         <h1 class="res" id="res">Result all</h1>
         <div id="resultscoreall"></div>
-        <button id="matbtnback" value="0" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="location.href='ChooseModePage.html'">
-            OK
-        </button>
+        <a style="color:unset !important; text-decoration:none !important" asp-controller="Home" asp-action="Index">
+            <button id="matbtnback" value="0" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="location.href='ChooseModePage.html'">
+                OK
+            </button>
+        </a>
     </div>
 
     <div class="clickablezone" onclick="onAppleClick()">

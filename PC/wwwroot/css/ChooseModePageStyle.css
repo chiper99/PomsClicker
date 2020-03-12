@@ -610,3 +610,81 @@ body
         margin-left:120px;
     }
 }
+
+@media screen and (max-width: 541px)
+{
+    #HelloUsername
+    {
+        width: 300px;
+        font-size: 16pt;
+        top: unset !important;
+    }
+    #ChooseMode
+    {
+        width:300px;
+        top:12%;
+        font-size: 15pt;
+        line-height: 35px;
+        transform: translate(-50%,-90%);
+    }
+    #SinglePlayer
+    {
+        margin: 0 auto;
+        top: 20%;
+        font-size: 15pt;
+    }
+    #ApplePic
+    {
+        top:28% !important;
+        width: 80px !important;
+        height: 80px !important;
+    }
+    #Multiplayer
+    {
+        margin: 0 auto;
+        top:39%;
+        font-size: 15pt;
+        transform: translate(-50%,-80%);
+    }
+    #AppleMulti
+    {
+        top:45%;
+        width: 80px;
+        height: 80px;
+        margin-left:-80px;
+    }
+    #AppleReverse
+    {
+        top:45%;
+        width: 80px;
+        height: 80px;
+        margin-left:80px;
+    }
+    #Blitz
+    {
+        margin: 0 auto;
+        top:58%;
+        font-size: 15pt;
+        transform: translate(-50%,-90%);
+    }
+    #AppleBlitz
+    {
+        top:65%;
+        width: 80px;
+        height: 80px;
+    }
+    #Cherry
+    {
+        top:65%;
+        width: 80px;
+        height: 80px;
+        margin-left:-120px;
+    }
+    #Lemon
+    {
+        top:65%;
+        width: 80px;
+        height: 80px;
+        margin-left:120px;
+    }
+}

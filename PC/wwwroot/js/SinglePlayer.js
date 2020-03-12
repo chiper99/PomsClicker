@@ -94,9 +94,17 @@ window.addEventListener("load", function () {
 
 });
 
+function openNav()
+          {
+            document.getElementById('centralmenu').style.display = "block";
+          }
+          function closeNav()
+          {
+            document.getElementById('centralmenu').style.display = "none";
+          }
+
 
 window.addEventListener("close", function( event ) {
 
     event.preventDefault();
   }, false);
-

@@ -610,3 +610,73 @@ body
         margin-left:120px;
     }
 }
+
+@media screen and (min-width: 541px)
+{
+    #HelloUsername
+    {
+        width: 300px;
+        font-size: 16pt;
+    }
+    #ChooseMode
+    {
+        width:300px;
+        top:12%;
+        font-size: 15pt;
+        line-height: 35px;
+    }
+    #SinglePlayer
+    {
+        font-size: 15pt;
+    }
+    #ApplePic
+    {
+        top:30%;
+        width: 80px;
+        height: 80px;
+    }
+    #Multiplayer
+    {
+        top:39%;
+        font-size: 15pt;
+    }
+    #AppleMulti
+    {
+        top:50%;
+        width: 80px;
+        height: 80px;
+        margin-left:-80px;
+    }
+    #AppleReverse
+    {
+        top:50%;
+        width: 80px;
+        height: 80px;
+        margin-left:80px;
+    }
+    #Blitz
+    {
+        top:58%;
+        font-size: 15pt;
+    }
+    #AppleBlitz
+    {
+        top:72%;
+        width: 80px;
+        height: 80px;
+    }
+    #Cherry
+    {
+        top:72%;
+        width: 80px;
+        height: 80px;
+        margin-left:-120px;
+    }
+    #Lemon
+    {
+        top:72%;
+        width: 80px;
+        height: 80px;
+        margin-left:120px;
+    }
+}

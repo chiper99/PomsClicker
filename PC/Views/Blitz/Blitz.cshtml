@@ -65,16 +65,20 @@
 
     <div class="centralmenu" id="centralmenu" style="display: none;">
         <h1 class="continueBlitzPage" onclick="closeNav()">Continue</h1>
-        <h1 class="saveBlitzPage" onclick='location.href="ChooseModePage.html"'>Save & Exit</h1>
+        <a style="color:unset !important; text-decoration:none !important" asp-controller="Home" asp-action="Index">
+            <h1 class="saveBlitzPage">Save & Exit</h1>
+        </a>
     </div>
 
     <div class="erroralert" id="erroralert" style="display: none;">
         <h1 class="losetext" id="losetext" style="display: none;">You Lose!</h1>
         <h1 class="resulttext">Result</h1>
         <h1 class="scoretext" id="scoretext">00</h1>
-        <button id="matbtnOK" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick='location.href="ChooseModePage.html"'>
-            OK
-        </button>
+        <a style="color:unset !important; text-decoration:none !important" asp-controller="Home" asp-action="Index">
+            <button id="matbtnOK" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick='location.href="ChooseModePage.html"'>
+                OK
+            </button>
+        </a>
     </div>
 
     <div class="secondscontainer">
